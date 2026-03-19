@@ -419,21 +419,19 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$mo
 ;
 ;
 ;
-// ─── Data ────────────────────────────────────────────────────────────────────
 const COURSES = [
     {
         idx: '01/09',
         emoji: '📣',
         name: 'AI Digital Marketing',
         color: 'gold',
-        age: 'Age 14+ · Class 9 onwards',
+        age: 'Age 14+ · Class 9+',
         desc: 'Master SEO, Google Ads, social media strategy, and AI copywriting. Run real campaigns and grow audiences using the latest AI marketing tools.',
         skills: [
             'SEO',
             'Google Ads',
             'Social Media AI',
-            'Analytics',
-            'Email Marketing'
+            'Analytics'
         ]
     },
     {
@@ -441,13 +439,12 @@ const COURSES = [
         emoji: '💼',
         name: 'AI Office Suite',
         color: 'cyan',
-        age: 'Age 13+ · Class 8 onwards',
+        age: 'Age 13+ · Class 8+',
         desc: 'Supercharge productivity with AI in MS Word, Excel, PowerPoint and email. Automate reports, build smart spreadsheets, and design presentations in minutes.',
         skills: [
             'MS Word AI',
             'Excel AI',
             'PowerPoint AI',
-            'Outlook AI',
             'Automation'
         ]
     },
@@ -456,14 +453,13 @@ const COURSES = [
         emoji: '🌐',
         name: 'AI Web App Development',
         color: 'red',
-        age: 'Age 15+ · Class 10 onwards',
+        age: 'Age 15+ · Class 10+',
         desc: 'Build and deploy real web apps using HTML, CSS, JavaScript and React. AI coding assistants accelerate every step — ship your first live app before camp ends.',
         skills: [
             'HTML/CSS',
             'JavaScript',
             'React',
-            'AI Coding',
-            'Live Deploy'
+            'AI Coding'
         ]
     },
     {
@@ -471,14 +467,13 @@ const COURSES = [
         emoji: '🎬',
         name: 'Junior YouTuber',
         color: 'green',
-        age: 'Age 10+ · Class 5 onwards',
-        desc: 'Script, film, edit, and publish. Use AI to create viral video ideas, stunning thumbnails, and grow a real YouTube channel. Perfect for young creators.',
+        age: 'Age 10+ · Class 5+',
+        desc: 'Script, film, edit, and publish. Use AI to create viral video ideas, stunning thumbnails, and grow a real YouTube channel.',
         skills: [
-            'Video Scripting',
+            'Scripting',
             'Editing',
             'AI Thumbnails',
-            'YouTube SEO',
-            'Monetisation'
+            'YouTube SEO'
         ]
     },
     {
@@ -486,14 +481,13 @@ const COURSES = [
         emoji: '🧠',
         name: 'Junior AI Prompt Engineer',
         color: 'purple',
-        age: 'Age 12+ · Class 7 onwards',
+        age: 'Age 12+ · Class 7+',
         desc: 'Master the art of talking to AI. Learn prompt engineering for ChatGPT, Gemini, Claude and image generators — turn ideas into professional outputs instantly.',
         skills: [
             'Prompt Design',
             'ChatGPT',
             'Gemini',
-            'Image Prompts',
-            'AI Workflows'
+            'Image Prompts'
         ]
     },
     {
@@ -501,14 +495,13 @@ const COURSES = [
         emoji: '🎨',
         name: 'AI Designer',
         color: 'pink',
-        age: 'Age 10+ · Class 5 onwards',
+        age: 'Age 10+ · Class 5+',
         desc: 'No drawing skills needed. Use Canva AI, Midjourney, and Adobe Firefly to design logos, posters, social media graphics and full brand identities.',
         skills: [
             'Canva AI',
             'Midjourney',
             'Adobe Firefly',
-            'Logo Design',
-            'Brand Identity'
+            'Logo Design'
         ]
     },
     {
@@ -516,11 +509,10 @@ const COURSES = [
         emoji: '🐍',
         name: 'Junior Python Programmer',
         color: 'gold',
-        age: 'Age 13+ · Class 8 onwards',
-        desc: 'Learn the world\'s most popular AI language from scratch. Write real Python scripts, build mini-apps, automate tasks, and understand the code behind AI tools.',
+        age: 'Age 13+ · Class 8+',
+        desc: "Learn the world's most popular AI language from scratch. Write real Python scripts, build mini-apps, automate tasks, and understand the code behind AI tools.",
         skills: [
             'Python Basics',
-            'Variables & Loops',
             'Functions',
             'Mini Projects',
             'AI Automation'
@@ -531,13 +523,12 @@ const COURSES = [
         emoji: '🎮',
         name: 'Junior Game Developer',
         color: 'cyan',
-        age: 'Age 12+ · Class 7 onwards',
+        age: 'Age 12+ · Class 7+',
         desc: 'Design and build your own 2D games using beginner-friendly tools and AI assistance. Share your game with friends before camp ends!',
         skills: [
             'Game Design',
             '2D Development',
-            'Scratch / Unity',
-            'AI Characters',
+            'Scratch/Unity',
             'Publish & Share'
         ]
     },
@@ -546,14 +537,13 @@ const COURSES = [
         emoji: '🤖',
         name: 'Generative AI & ChatGPT',
         color: 'red',
-        age: 'Age 14+ · Class 9 onwards',
-        desc: 'Master the most powerful AI tools of our era. Create text, images, code, and audio using ChatGPT, DALL·E, Sora, and more. Build AI workflows that work 24/7.',
+        age: 'Age 14+ · Class 9+',
+        desc: "Master the most powerful AI tools of our era. Create text, images, code, and audio using ChatGPT, DALL·E, Sora, and more. Build AI workflows that work 24/7.",
         skills: [
             'ChatGPT Pro',
-            'DALL·E Image Gen',
+            'DALL·E',
             'Prompt Mastery',
-            'AI Workflows',
-            'Content Creation'
+            'AI Workflows'
         ]
     }
 ];
@@ -578,7 +568,7 @@ const STATS = [
     },
     {
         num: 95,
-        label: '% Placement Rate',
+        label: 'Placement Rate',
         color: '#B47FFF',
         suffix: '%'
     }
@@ -587,12 +577,12 @@ const WHY_ITEMS = [
     {
         num: '01',
         title: 'Kerala State Rutronix Approved',
-        body: 'Government-recognised certification. Your Oxford certificate is valid across Kerala, India, and accepted in government job applications and higher education.'
+        body: 'Government-recognised certification valid across Kerala and India — accepted for government job applications and higher education.'
     },
     {
         num: '02',
         title: '5000+ Students Trained',
-        body: 'Over a decade of quality computer education in Malayinkeezhu. Our alumni work in IT companies, run businesses, and hold government positions across Kerala.'
+        body: 'Over a decade of quality computer education in Malayinkeezhu. Our alumni work in IT companies, run businesses, and hold government positions.'
     },
     {
         num: '03',
@@ -607,7 +597,7 @@ const WHY_ITEMS = [
     {
         num: '05',
         title: '95% Placement Support',
-        body: 'Career guidance, resume building, and placement assistance included. Our 95% placement rate speaks for itself — we invest in your success beyond the classroom.'
+        body: 'Career guidance, resume building, and placement assistance included. Our 95% placement rate speaks for itself.'
     }
 ];
 const TIMELINE = [
@@ -615,31 +605,31 @@ const TIMELINE = [
         dot: '🚀',
         day: 'Days 1–5 · Week 1',
         title: 'Foundation & AI Tool Onboarding',
-        body: 'Orientation, tool setup, and skill baseline assessment. Get introduced to 14+ AI tools curated for your course. Build your first mini-project with trainer guidance.'
+        body: 'Orientation, tool setup, and skill baseline assessment. Get introduced to 14+ AI tools curated for your course. Build your first mini-project.'
     },
     {
         dot: '⚙️',
         day: 'Days 6–12 · Week 2',
         title: 'Core Skills Development',
-        body: 'Deep-dive into course-specific tools and techniques. Work on structured assignments daily. Peer learning, trainer feedback sessions, and skill assessments every Friday.'
+        body: 'Deep-dive into course-specific tools and techniques. Work on structured assignments daily with peer learning and trainer feedback.'
     },
     {
         dot: '🛠️',
         day: 'Days 13–19 · Week 3',
         title: 'Real-World Project Build',
-        body: 'Apply everything learned to build your major project — a real website, marketing campaign, YouTube channel, AI design portfolio, or prompt engineering workbook.'
+        body: 'Apply everything learned to build your major project — a real website, marketing campaign, YouTube channel, or AI design portfolio.'
     },
     {
         dot: '🎯',
         day: 'Days 20–24 · Week 4',
         title: 'Project Polish & Presentation',
-        body: 'Refine your project with trainer mentorship. Prepare your project presentation for the final day showcase. Career guidance, resume tips, and alumni networking session.'
+        body: 'Refine your project with trainer mentorship. Prepare your presentation for the final day showcase. Career guidance and alumni networking.'
     },
     {
         dot: '🏅',
         day: 'Day 25 · Grand Finale',
         title: 'Certificate Ceremony & Showcase',
-        body: 'Present your project to parents, trainers, and guests. Receive your Kerala State Rutronix Government Certificate. Celebrate your transformation from student to AI creator.'
+        body: 'Present your project to parents and guests. Receive your Kerala State Rutronix Government Certificate. Celebrate your transformation!'
     }
 ];
 const TESTIMONIALS = [
@@ -652,7 +642,7 @@ const TESTIMONIALS = [
     },
     {
         stars: 5,
-        quote: '"My daughter attended the Junior YouTuber course. She now has 800 subscribers and posts regularly. The trainers were patient and explained everything in Malayalam. Highly recommended."',
+        quote: '"My daughter attended the Junior YouTuber course. She now has 800 subscribers and posts regularly. The trainers were patient and explained everything in Malayalam."',
         name: 'Priya S. (Parent)',
         role: 'Daughter: Class 7 · Malayinkeezhu',
         avatar: '👩'
@@ -676,7 +666,7 @@ const FAQS = [
     },
     {
         q: 'Is the certificate government recognised?',
-        a: 'Yes. The Oxford Computers is a Kerala State Rutronix-approved institute. The certificate is government-certified and nationally recognised — valid for government job applications and higher education admissions across Kerala.'
+        a: 'Yes. The Oxford Computers is Kerala State Rutronix-approved. The certificate is government-certified and nationally recognised — valid for government job applications and higher education admissions across Kerala.'
     },
     {
         q: 'How long is each course and what are the timings?',
@@ -688,7 +678,7 @@ const FAQS = [
     },
     {
         q: 'Is instruction in Malayalam or English?',
-        a: 'Both. Trainers are fluent in Malayalam and English. Most classes are conducted bilingually so every student understands fully. Study materials are in English with Malayalam explanations during class.'
+        a: 'Both. Trainers are fluent in Malayalam and English. Most classes are conducted bilingually so every student understands fully.'
     },
     {
         q: 'How do I register for the 2026 batch?',
@@ -696,7 +686,6 @@ const FAQS = [
     }
 ];
 const SHEET_URL = 'https://script.google.com/macros/s/AKfycby8hn6MU0dRGPFcFPYSNM4sKj8xV0Zf6ilSIojIEVhJzUt8TmPU1q18Zoy-dM8eGTgB/exec';
-// ─── Color maps ───────────────────────────────────────────────────────────────
 const C = {
     gold: '#FFB800',
     cyan: '#00E5FF',
@@ -713,26 +702,25 @@ const CBORDER = {
     purple: 'rgba(180,127,255,.4)',
     pink: 'rgba(255,110,191,.4)'
 };
-// ─── Micro-components ─────────────────────────────────────────────────────────
-function FadeIn({ children, delay = 0, className = '' }) {
+function FadeIn({ children, delay = 0, style }) {
     const ref = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useRef"])(null);
     const inView = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$utils$2f$use$2d$in$2d$view$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useInView"])(ref, {
         once: true,
-        margin: '-60px'
+        margin: '-40px'
     });
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
         ref: ref,
-        className: className,
+        style: style,
         initial: {
             opacity: 0,
-            y: 40
+            y: 28
         },
         animate: inView ? {
             opacity: 1,
             y: 0
         } : {},
         transition: {
-            duration: 0.8,
+            duration: 0.7,
             delay,
             ease: [
                 0.22,
@@ -744,56 +732,8 @@ function FadeIn({ children, delay = 0, className = '' }) {
         children: children
     }, void 0, false, {
         fileName: "[project]/components/ActivityCampSection.tsx",
-        lineNumber: 76,
+        lineNumber: 65,
         columnNumber: 5
-    }, this);
-}
-function SectionLabel({ children }) {
-    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-        style: {
-            fontSize: 9,
-            letterSpacing: '0.4em',
-            textTransform: 'uppercase',
-            color: '#00E5FF',
-            display: 'block',
-            marginBottom: 16,
-            fontFamily: 'JetBrains Mono, monospace'
-        },
-        children: children
-    }, void 0, false, {
-        fileName: "[project]/components/ActivityCampSection.tsx",
-        lineNumber: 86,
-        columnNumber: 10
-    }, this);
-}
-function SectionTitle({ children, style }) {
-    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-        style: {
-            fontFamily: 'Syne, sans-serif',
-            fontWeight: 800,
-            fontSize: 'clamp(36px,5.5vw,72px)',
-            lineHeight: 0.96,
-            marginBottom: 24,
-            color: '#EFF3FF',
-            ...style
-        },
-        children: children
-    }, void 0, false, {
-        fileName: "[project]/components/ActivityCampSection.tsx",
-        lineNumber: 90,
-        columnNumber: 10
-    }, this);
-}
-function Gold({ children }) {
-    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-        style: {
-            color: '#FFB800'
-        },
-        children: children
-    }, void 0, false, {
-        fileName: "[project]/components/ActivityCampSection.tsx",
-        lineNumber: 94,
-        columnNumber: 10
     }, this);
 }
 function StatCounter({ target, suffix, color }) {
@@ -804,14 +744,14 @@ function StatCounter({ target, suffix, color }) {
     });
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
         if (!inView) return;
-        let start = 0;
+        let n = 0;
         const step = ()=>{
-            start += Math.ceil(target / 60);
-            if (start >= target) {
+            n += Math.ceil(target / 60);
+            if (n >= target) {
                 setCount(target);
                 return;
             }
-            setCount(start);
+            setCount(n);
             requestAnimationFrame(step);
         };
         requestAnimationFrame(step);
@@ -822,12 +762,12 @@ function StatCounter({ target, suffix, color }) {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         ref: ref,
         style: {
-            fontFamily: 'Syne, sans-serif',
+            fontFamily: 'Syne,sans-serif',
             fontWeight: 800,
-            fontSize: 'clamp(36px,5vw,60px)',
+            fontSize: 'clamp(28px,7vw,52px)',
             lineHeight: 1,
             color,
-            marginBottom: 8
+            marginBottom: 6
         },
         children: [
             count,
@@ -835,14 +775,13 @@ function StatCounter({ target, suffix, color }) {
         ]
     }, void 0, true, {
         fileName: "[project]/components/ActivityCampSection.tsx",
-        lineNumber: 113,
-        columnNumber: 5
+        lineNumber: 81,
+        columnNumber: 10
     }, this);
 }
 function CourseCard({ course, index }) {
     const [hovered, setHovered] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(false);
-    const col = C[course.color];
-    const bdr = CBORDER[course.color];
+    const col = C[course.color], bdr = CBORDER[course.color];
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
         onMouseEnter: ()=>setHovered(true),
         onMouseLeave: ()=>setHovered(false),
@@ -851,7 +790,7 @@ function CourseCard({ course, index }) {
             }),
         initial: {
             opacity: 0,
-            y: 80
+            y: 50
         },
         whileInView: {
             opacity: 1,
@@ -859,11 +798,11 @@ function CourseCard({ course, index }) {
         },
         viewport: {
             once: true,
-            margin: '-40px'
+            margin: '-20px'
         },
         transition: {
-            duration: 0.7,
-            delay: index % 3 * 0.1,
+            duration: 0.6,
+            delay: index % 3 * 0.07,
             ease: [
                 0.22,
                 1,
@@ -872,14 +811,15 @@ function CourseCard({ course, index }) {
             ]
         },
         style: {
-            padding: '48px 40px',
+            padding: 'clamp(22px,4vw,40px) clamp(18px,3.5vw,32px)',
             background: hovered ? 'rgba(3,6,15,.95)' : 'rgba(3,6,15,.6)',
             border: `1px solid ${hovered ? 'rgba(255,255,255,.18)' : 'rgba(255,255,255,.05)'}`,
             position: 'relative',
             overflow: 'hidden',
             cursor: 'pointer',
-            transform: hovered ? 'translateY(-8px)' : 'translateY(0)',
-            transition: 'all 0.4s cubic-bezier(0.22,1,0.36,1)'
+            transform: hovered ? 'translateY(-5px)' : 'translateY(0)',
+            transition: 'all 0.35s cubic-bezier(0.22,1,0.36,1)',
+            minWidth: 0
         },
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -892,157 +832,134 @@ function CourseCard({ course, index }) {
                     background: col,
                     transform: hovered ? 'scaleX(1)' : 'scaleX(0)',
                     transformOrigin: 'left',
-                    transition: 'transform 0.5s ease'
+                    transition: 'transform 0.45s ease'
                 }
             }, void 0, false, {
                 fileName: "[project]/components/ActivityCampSection.tsx",
-                lineNumber: 140,
+                lineNumber: 93,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 style: {
-                    position: 'absolute',
-                    width: 220,
-                    height: 220,
-                    borderRadius: '50%',
-                    filter: 'blur(70px)',
-                    top: -60,
-                    right: -60,
-                    background: col,
-                    opacity: hovered ? 0.18 : 0,
-                    transition: 'opacity 0.5s',
-                    pointerEvents: 'none'
-                }
-            }, void 0, false, {
-                fileName: "[project]/components/ActivityCampSection.tsx",
-                lineNumber: 142,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                style: {
-                    fontSize: 9,
-                    letterSpacing: '0.2em',
+                    fontSize: 'clamp(7px,1.5vw,9px)',
+                    letterSpacing: '0.18em',
                     color: '#2a3050',
-                    marginBottom: 20,
-                    fontFamily: 'JetBrains Mono, monospace'
+                    marginBottom: 14,
+                    fontFamily: 'JetBrains Mono,monospace'
                 },
                 children: course.idx
             }, void 0, false, {
                 fileName: "[project]/components/ActivityCampSection.tsx",
-                lineNumber: 143,
+                lineNumber: 94,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                 style: {
-                    fontSize: 52,
-                    marginBottom: 20,
+                    fontSize: 'clamp(36px,7vw,46px)',
+                    marginBottom: 14,
                     display: 'block',
                     lineHeight: 1
                 },
                 children: course.emoji
             }, void 0, false, {
                 fileName: "[project]/components/ActivityCampSection.tsx",
-                lineNumber: 144,
+                lineNumber: 95,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                 style: {
-                    fontFamily: 'Syne, sans-serif',
+                    fontFamily: 'Syne,sans-serif',
                     fontWeight: 800,
-                    fontSize: 22,
+                    fontSize: 'clamp(17px,2.8vw,21px)',
                     lineHeight: 1.1,
-                    marginBottom: 14,
+                    marginBottom: 8,
                     color: col
                 },
                 children: course.name
             }, void 0, false, {
                 fileName: "[project]/components/ActivityCampSection.tsx",
-                lineNumber: 145,
+                lineNumber: 96,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                 style: {
-                    fontSize: 8,
-                    letterSpacing: '0.15em',
+                    fontSize: 'clamp(7px,1.4vw,8px)',
+                    letterSpacing: '0.1em',
                     textTransform: 'uppercase',
-                    padding: '5px 12px',
+                    padding: '4px 9px',
                     border: `1px solid ${bdr}`,
                     color: col,
                     display: 'inline-block',
-                    marginBottom: 20,
-                    fontFamily: 'JetBrains Mono, monospace'
+                    marginBottom: 12,
+                    fontFamily: 'JetBrains Mono,monospace'
                 },
                 children: course.age
             }, void 0, false, {
                 fileName: "[project]/components/ActivityCampSection.tsx",
-                lineNumber: 146,
+                lineNumber: 97,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                 style: {
-                    fontFamily: 'DM Serif Display, serif',
+                    fontFamily: 'DM Serif Display,serif',
                     fontStyle: 'italic',
-                    fontSize: 15,
-                    lineHeight: 1.65,
+                    fontSize: 'clamp(13px,2vw,15px)',
+                    lineHeight: 1.6,
                     color: 'rgba(239,243,255,.48)',
-                    marginBottom: 24
+                    marginBottom: 16
                 },
                 children: course.desc
             }, void 0, false, {
                 fileName: "[project]/components/ActivityCampSection.tsx",
-                lineNumber: 147,
+                lineNumber: 98,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 style: {
                     display: 'flex',
                     flexWrap: 'wrap',
-                    gap: 6,
-                    marginBottom: 28
+                    gap: 4
                 },
                 children: course.skills.map((s)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                         style: {
-                            fontSize: 7,
-                            letterSpacing: '0.12em',
+                            fontSize: 'clamp(6px,1.2vw,7px)',
+                            letterSpacing: '0.1em',
                             textTransform: 'uppercase',
-                            padding: '4px 9px',
+                            padding: '3px 7px',
                             background: 'rgba(255,255,255,.03)',
                             border: '1px solid rgba(255,255,255,.06)',
                             color: '#2a3050',
-                            fontFamily: 'JetBrains Mono, monospace'
+                            fontFamily: 'JetBrains Mono,monospace'
                         },
                         children: s
                     }, s, false, {
                         fileName: "[project]/components/ActivityCampSection.tsx",
-                        lineNumber: 150,
-                        columnNumber: 11
+                        lineNumber: 100,
+                        columnNumber: 33
                     }, this))
             }, void 0, false, {
                 fileName: "[project]/components/ActivityCampSection.tsx",
-                lineNumber: 148,
+                lineNumber: 99,
                 columnNumber: 7
             }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+            hovered && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 style: {
-                    fontSize: 14,
+                    marginTop: 14,
+                    fontSize: 13,
                     color: col,
-                    opacity: hovered ? 1 : 0,
-                    transform: hovered ? 'translateX(0)' : 'translateX(-8px)',
-                    transition: 'all 0.3s',
-                    display: 'block',
-                    fontFamily: 'JetBrains Mono, monospace',
+                    fontFamily: 'JetBrains Mono,monospace',
                     fontWeight: 700
                 },
                 children: "→ Enroll Now"
             }, void 0, false, {
                 fileName: "[project]/components/ActivityCampSection.tsx",
-                lineNumber: 153,
-                columnNumber: 7
+                lineNumber: 102,
+                columnNumber: 19
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/ActivityCampSection.tsx",
-        lineNumber: 124,
+        lineNumber: 88,
         columnNumber: 5
     }, this);
 }
@@ -1059,29 +976,29 @@ function FaqItem({ q, a }) {
                     display: 'flex',
                     alignItems: 'center',
                     justifyContent: 'space-between',
-                    padding: '24px 0',
+                    padding: '18px 0',
                     cursor: 'pointer',
-                    gap: 20
+                    gap: 14
                 },
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                         style: {
-                            fontFamily: 'Syne, sans-serif',
+                            fontFamily: 'Syne,sans-serif',
                             fontWeight: 700,
-                            fontSize: 16,
+                            fontSize: 'clamp(13px,2vw,15px)',
                             color: '#EFF3FF',
                             lineHeight: 1.3
                         },
                         children: q
                     }, void 0, false, {
                         fileName: "[project]/components/ActivityCampSection.tsx",
-                        lineNumber: 163,
+                        lineNumber: 112,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         style: {
-                            width: 28,
-                            height: 28,
+                            width: 24,
+                            height: 24,
                             border: `1px solid ${open ? '#FFB800' : 'rgba(255,255,255,.1)'}`,
                             display: 'flex',
                             alignItems: 'center',
@@ -1091,18 +1008,18 @@ function FaqItem({ q, a }) {
                             color: open ? '#000507' : '#2a3050',
                             transform: open ? 'rotate(45deg)' : 'none',
                             transition: 'all 0.3s',
-                            fontSize: 14
+                            fontSize: 13
                         },
                         children: "+"
                     }, void 0, false, {
                         fileName: "[project]/components/ActivityCampSection.tsx",
-                        lineNumber: 164,
+                        lineNumber: 113,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/ActivityCampSection.tsx",
-                lineNumber: 162,
+                lineNumber: 111,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -1112,40 +1029,40 @@ function FaqItem({ q, a }) {
                 },
                 initial: false,
                 transition: {
-                    duration: 0.35
+                    duration: 0.3
                 },
                 style: {
                     overflow: 'hidden'
                 },
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                     style: {
-                        fontFamily: 'DM Serif Display, serif',
+                        fontFamily: 'DM Serif Display,serif',
                         fontStyle: 'italic',
-                        fontSize: 16,
-                        lineHeight: 1.75,
+                        fontSize: 'clamp(13px,2vw,15px)',
+                        lineHeight: 1.7,
                         color: 'rgba(239,243,255,.5)',
-                        paddingBottom: 24
+                        paddingBottom: 18
                     },
                     children: a
                 }, void 0, false, {
                     fileName: "[project]/components/ActivityCampSection.tsx",
-                    lineNumber: 172,
+                    lineNumber: 116,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/ActivityCampSection.tsx",
-                lineNumber: 171,
+                lineNumber: 115,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/ActivityCampSection.tsx",
-        lineNumber: 161,
+        lineNumber: 110,
         columnNumber: 5
     }, this);
 }
 function ActivityCampSection() {
-    const [formData, setFormData] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])({
+    const [form, setForm] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])({
         name: '',
         phone: '',
         studentClass: '',
@@ -1155,19 +1072,18 @@ function ActivityCampSection() {
     });
     const [toast, setToast] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(null);
     const [sending, setSending] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(false);
-    const [countdown, setCountdown] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])({
+    const [cd, setCd] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])({
         d: '--',
         h: '--',
         m: '--',
         s: '--'
     });
-    // Countdown
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
-        const campStart = new Date('2026-04-01T00:00:00+05:30').getTime();
+        const t = new Date('2026-04-01T00:00:00+05:30').getTime();
         const tick = ()=>{
-            const diff = campStart - Date.now();
+            const diff = t - Date.now();
             if (diff <= 0) {
-                setCountdown({
+                setCd({
                     d: '00',
                     h: '00',
                     m: '00',
@@ -1175,7 +1091,7 @@ function ActivityCampSection() {
                 });
                 return;
             }
-            setCountdown({
+            setCd({
                 d: String(Math.floor(diff / 86400000)).padStart(2, '0'),
                 h: String(Math.floor(diff % 86400000 / 3600000)).padStart(2, '0'),
                 m: String(Math.floor(diff % 3600000 / 60000)).padStart(2, '0'),
@@ -1191,10 +1107,10 @@ function ActivityCampSection() {
             msg,
             ok
         });
-        setTimeout(()=>setToast(null), 4500);
+        setTimeout(()=>setToast(null), 4000);
     };
-    const handleSubmit = async ()=>{
-        if (!formData.name || !formData.phone || !formData.course) {
+    const submit = async ()=>{
+        if (!form.name || !form.phone || !form.course) {
             showToast('⚠️ Please fill Name, Phone & Course', false);
             return;
         }
@@ -1209,11 +1125,11 @@ function ActivityCampSection() {
                 body: JSON.stringify({
                     timestamp: ist,
                     source: 'ActivityCamp2026',
-                    ...formData
+                    ...form
                 })
             });
             showToast('✓ Application Received! We will call you soon.', true);
-            setFormData({
+            setForm({
                 name: '',
                 phone: '',
                 studentClass: '',
@@ -1222,52 +1138,100 @@ function ActivityCampSection() {
                 message: ''
             });
         } catch  {
-            showToast('✓ Received! But check your connection.', true);
+            showToast('✓ Received! Check your connection.', true);
         }
         setSending(false);
     };
-    const inputStyle = {
+    const inp = {
         width: '100%',
         background: 'rgba(255,255,255,.03)',
         border: '1px solid rgba(255,255,255,.07)',
-        padding: '14px 18px',
+        padding: '12px 15px',
         color: '#EFF3FF',
-        fontFamily: 'JetBrains Mono, monospace',
-        fontSize: 13,
+        fontFamily: 'JetBrains Mono,monospace',
+        fontSize: 'clamp(12px,2vw,13px)',
         outline: 'none',
-        transition: 'border-color 0.3s'
+        borderRadius: 0
     };
+    const scrollTo = (id)=>(e)=>{
+            e.preventDefault();
+            document.getElementById(id)?.scrollIntoView({
+                behavior: 'smooth'
+            });
+        };
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         style: {
             background: '#000507',
             color: '#EFF3FF',
-            fontFamily: 'JetBrains Mono, monospace',
+            fontFamily: 'JetBrains Mono,monospace',
             overflowX: 'hidden'
         },
         children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("style", {
+                children: `
+        @import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=DM+Serif+Display:ital@0;1&family=JetBrains+Mono:wght@300;400;700&display=swap');
+        @keyframes gDrift{to{background-position:64px 64px,64px 64px;}}
+        @keyframes breathe{0%,100%{transform:translate(-50%,-50%) scale(1)}50%{transform:translate(-50%,-50%) scale(1.12)}}
+        @keyframes tickR{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
+        @keyframes ctaP{0%,100%{opacity:.6}50%{opacity:1}}
+        *{box-sizing:border-box;}
+        .g2{display:grid;grid-template-columns:1fr 1fr;gap:14px;}
+        .g3{display:grid;grid-template-columns:repeat(3,1fr);gap:2px;}
+        .g3w{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;}
+        .g4{display:grid;grid-template-columns:repeat(4,1fr);gap:2px;}
+        .g2c{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:start;}
+        .g2w{display:grid;grid-template-columns:1fr 1fr;gap:52px;align-items:center;}
+        .gf{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:36px;}
+        .sp{padding:clamp(64px,10vw,112px) clamp(20px,5vw,56px);}
+        .mx{max-width:1200px;margin:0 auto;}
+        .sl{font-size:clamp(7px,1.6vw,9px);letter-spacing:.36em;text-transform:uppercase;color:#00E5FF;display:block;margin-bottom:13px;font-family:'JetBrains Mono',monospace;}
+        .st{font-family:'Syne',sans-serif;font-weight:800;font-size:clamp(30px,6.5vw,68px);line-height:.93;margin-bottom:20px;}
+        .sb{font-family:'DM Serif Display',serif;font-style:italic;font-size:clamp(14px,2.2vw,17px);line-height:1.7;color:rgba(239,243,255,.5);}
+        @media(max-width:860px){
+          .g2{grid-template-columns:1fr;}
+          .g3{grid-template-columns:1fr;}
+          .g3w{grid-template-columns:1fr;}
+          .g4{grid-template-columns:1fr 1fr;}
+          .g2c{grid-template-columns:1fr;gap:40px;}
+          .g2w{grid-template-columns:1fr;gap:36px;}
+          .gf{grid-template-columns:1fr 1fr;gap:24px;}
+          .why-vis{display:none !important;}
+        }
+        @media(max-width:520px){
+          .g4{grid-template-columns:1fr 1fr;}
+          .gf{grid-template-columns:1fr;}
+          .hero-btns{flex-direction:column;align-items:stretch !important;}
+          .hero-btns a{text-align:center;}
+        }
+      `
+            }, void 0, false, {
+                fileName: "[project]/components/ActivityCampSection.tsx",
+                lineNumber: 154,
+                columnNumber: 7
+            }, this),
             toast && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 style: {
                     position: 'fixed',
-                    bottom: 32,
+                    bottom: 20,
                     left: '50%',
                     transform: 'translateX(-50%)',
                     background: toast.ok ? '#00FF9D' : '#FF3860',
                     color: '#000507',
-                    fontFamily: 'JetBrains Mono, monospace',
+                    fontFamily: 'JetBrains Mono,monospace',
                     fontSize: 11,
                     fontWeight: 700,
-                    letterSpacing: '0.15em',
+                    letterSpacing: '0.14em',
                     textTransform: 'uppercase',
-                    padding: '16px 32px',
+                    padding: '13px 26px',
                     zIndex: 9999,
-                    borderRadius: 0,
-                    boxShadow: '0 8px 32px rgba(0,0,0,0.4)'
+                    whiteSpace: 'nowrap',
+                    boxShadow: '0 8px 32px rgba(0,0,0,.4)'
                 },
                 children: toast.msg
             }, void 0, false, {
                 fileName: "[project]/components/ActivityCampSection.tsx",
-                lineNumber: 236,
-                columnNumber: 9
+                lineNumber: 192,
+                columnNumber: 17
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                 href: "https://wa.me/919447329972?text=Hi!%20I%20want%20to%20know%20about%20the%20AI%20Vacation%20Activity%20Camp%202026.",
@@ -1275,41 +1239,41 @@ function ActivityCampSection() {
                 rel: "noopener noreferrer",
                 style: {
                     position: 'fixed',
-                    bottom: 28,
-                    right: 28,
+                    bottom: 22,
+                    right: 22,
                     zIndex: 8500,
-                    width: 58,
-                    height: 58,
+                    width: 52,
+                    height: 52,
                     background: '#25D366',
                     borderRadius: '50%',
                     display: 'flex',
                     alignItems: 'center',
                     justifyContent: 'center',
-                    boxShadow: '0 8px 32px rgba(37,211,102,.4)',
+                    boxShadow: '0 6px 24px rgba(37,211,102,.45)',
                     textDecoration: 'none'
                 },
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
                     viewBox: "0 0 24 24",
                     style: {
-                        width: 28,
-                        height: 28,
+                        width: 25,
+                        height: 25,
                         fill: '#fff'
                     },
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
                         d: "M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"
                     }, void 0, false, {
                         fileName: "[project]/components/ActivityCampSection.tsx",
-                        lineNumber: 249,
-                        columnNumber: 11
+                        lineNumber: 197,
+                        columnNumber: 82
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/components/ActivityCampSection.tsx",
-                    lineNumber: 248,
+                    lineNumber: 197,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/ActivityCampSection.tsx",
-                lineNumber: 246,
+                lineNumber: 195,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1322,28 +1286,28 @@ function ActivityCampSection() {
                     textAlign: 'center',
                     position: 'relative',
                     overflow: 'hidden',
-                    padding: '120px 48px 80px'
+                    padding: 'clamp(90px,14vw,130px) clamp(20px,5vw,48px) clamp(56px,8vw,80px)'
                 },
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         style: {
                             position: 'absolute',
                             inset: 0,
-                            backgroundImage: 'linear-gradient(rgba(0,229,255,.025) 1px,transparent 1px),linear-gradient(90deg,rgba(0,229,255,.025) 1px,transparent 1px)',
+                            backgroundImage: 'linear-gradient(rgba(0,229,255,.02) 1px,transparent 1px),linear-gradient(90deg,rgba(0,229,255,.02) 1px,transparent 1px)',
                             backgroundSize: '64px 64px',
-                            animation: 'gridDrift 25s linear infinite'
+                            animation: 'gDrift 25s linear infinite'
                         }
                     }, void 0, false, {
                         fileName: "[project]/components/ActivityCampSection.tsx",
-                        lineNumber: 256,
+                        lineNumber: 202,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         style: {
                             position: 'absolute',
-                            width: 800,
-                            height: 800,
-                            background: 'radial-gradient(circle,rgba(255,184,0,.09) 0%,transparent 70%)',
+                            width: 'min(700px,130vw)',
+                            height: 'min(700px,130vw)',
+                            background: 'radial-gradient(circle,rgba(255,184,0,.08) 0%,transparent 70%)',
                             borderRadius: '50%',
                             top: '40%',
                             left: '30%',
@@ -1352,52 +1316,21 @@ function ActivityCampSection() {
                         }
                     }, void 0, false, {
                         fileName: "[project]/components/ActivityCampSection.tsx",
-                        lineNumber: 257,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        style: {
-                            position: 'absolute',
-                            width: 600,
-                            height: 600,
-                            background: 'radial-gradient(circle,rgba(0,229,255,.07) 0%,transparent 70%)',
-                            borderRadius: '50%',
-                            top: '60%',
-                            left: '70%',
-                            transform: 'translate(-50%,-50%)',
-                            animation: 'breathe 8s ease-in-out infinite reverse'
-                        }
-                    }, void 0, false, {
-                        fileName: "[project]/components/ActivityCampSection.tsx",
-                        lineNumber: 258,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("style", {
-                        children: `
-          @import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=DM+Serif+Display:ital@0;1&family=JetBrains+Mono:wght@300;400;700&display=swap');
-          @keyframes gridDrift{to{background-position:64px 64px,64px 64px;}}
-          @keyframes breathe{0%,100%{transform:translate(-50%,-50%) scale(1)}50%{transform:translate(-50%,-50%) scale(1.2)}}
-          @keyframes tick{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
-          @keyframes ctaGlow{0%,100%{opacity:.6;transform:scale(1)}50%{opacity:1;transform:scale(1.1)}}
-          @keyframes shDot{0%,100%{transform:translateY(0);opacity:1}70%{transform:translateY(9px);opacity:0}}
-          * { box-sizing: border-box; }
-        `
-                    }, void 0, false, {
-                        fileName: "[project]/components/ActivityCampSection.tsx",
-                        lineNumber: 260,
+                        lineNumber: 203,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         style: {
                             position: 'relative',
                             zIndex: 2,
-                            maxWidth: 1000
+                            maxWidth: 'min(960px,96vw)',
+                            width: '100%'
                         },
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].span, {
                                 initial: {
                                     opacity: 0,
-                                    y: 32
+                                    y: 20
                                 },
                                 animate: {
                                     opacity: 1,
@@ -1405,26 +1338,22 @@ function ActivityCampSection() {
                                 },
                                 transition: {
                                     delay: .3,
-                                    duration: .9
+                                    duration: .8
                                 },
+                                className: "sl",
                                 style: {
-                                    fontSize: 9,
-                                    letterSpacing: '0.42em',
-                                    textTransform: 'uppercase',
-                                    color: '#00E5FF',
-                                    marginBottom: 24,
-                                    display: 'block'
+                                    marginBottom: 18
                                 },
                                 children: "🌐 Kerala State Rutronix Approved · Vacation Activity Camp"
                             }, void 0, false, {
                                 fileName: "[project]/components/ActivityCampSection.tsx",
-                                lineNumber: 271,
+                                lineNumber: 205,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
                                 initial: {
                                     opacity: 0,
-                                    y: 32
+                                    y: 20
                                 },
                                 animate: {
                                     opacity: 1,
@@ -1432,14 +1361,14 @@ function ActivityCampSection() {
                                 },
                                 transition: {
                                     delay: .5,
-                                    duration: .9
+                                    duration: .8
                                 },
                                 style: {
                                     display: 'flex',
-                                    gap: 10,
+                                    gap: 7,
                                     justifyContent: 'center',
                                     flexWrap: 'wrap',
-                                    marginBottom: 32
+                                    marginBottom: 24
                                 },
                                 children: [
                                     [
@@ -1460,23 +1389,23 @@ function ActivityCampSection() {
                                     ]
                                 ].map(([l, c])=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                         style: {
-                                            fontSize: 8,
-                                            letterSpacing: '0.15em',
+                                            fontSize: 'clamp(7px,1.6vw,8px)',
+                                            letterSpacing: '0.12em',
                                             textTransform: 'uppercase',
-                                            padding: '6px 14px',
+                                            padding: '5px 11px',
                                             border: `1px solid ${c}`,
                                             color: c,
-                                            fontFamily: 'JetBrains Mono, monospace'
+                                            fontFamily: 'JetBrains Mono,monospace'
                                         },
                                         children: l
                                     }, l, false, {
                                         fileName: "[project]/components/ActivityCampSection.tsx",
-                                        lineNumber: 279,
+                                        lineNumber: 210,
                                         columnNumber: 15
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/components/ActivityCampSection.tsx",
-                                lineNumber: 276,
+                                lineNumber: 208,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].h1, {
@@ -1488,15 +1417,15 @@ function ActivityCampSection() {
                                 },
                                 transition: {
                                     delay: .7,
-                                    duration: 1
+                                    duration: .9
                                 },
                                 style: {
-                                    fontFamily: 'Syne, sans-serif',
+                                    fontFamily: 'Syne,sans-serif',
                                     fontWeight: 800,
-                                    fontSize: 'clamp(48px,10vw,120px)',
+                                    fontSize: 'clamp(40px,11vw,112px)',
                                     lineHeight: .88,
                                     letterSpacing: '-0.04em',
-                                    marginBottom: 28
+                                    marginBottom: 20
                                 },
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1507,7 +1436,7 @@ function ActivityCampSection() {
                                         children: "AI Vacation"
                                     }, void 0, false, {
                                         fileName: "[project]/components/ActivityCampSection.tsx",
-                                        lineNumber: 285,
+                                        lineNumber: 215,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1518,7 +1447,7 @@ function ActivityCampSection() {
                                         children: "Activity"
                                     }, void 0, false, {
                                         fileName: "[project]/components/ActivityCampSection.tsx",
-                                        lineNumber: 286,
+                                        lineNumber: 216,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1530,60 +1459,57 @@ function ActivityCampSection() {
                                         children: "Camp 2026"
                                     }, void 0, false, {
                                         fileName: "[project]/components/ActivityCampSection.tsx",
-                                        lineNumber: 287,
+                                        lineNumber: 217,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/ActivityCampSection.tsx",
-                                lineNumber: 283,
+                                lineNumber: 213,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].p, {
                                 initial: {
                                     opacity: 0,
-                                    y: 32
+                                    y: 16
                                 },
                                 animate: {
                                     opacity: 1,
                                     y: 0
                                 },
                                 transition: {
-                                    delay: .95,
-                                    duration: .9
+                                    delay: .9,
+                                    duration: .8
                                 },
                                 style: {
-                                    fontFamily: 'DM Serif Display, serif',
+                                    fontFamily: 'DM Serif Display,serif',
                                     fontStyle: 'italic',
-                                    fontSize: 'clamp(16px,2.5vw,24px)',
+                                    fontSize: 'clamp(14px,2.8vw,21px)',
                                     color: 'rgba(239,243,255,.45)',
-                                    marginBottom: 16
+                                    marginBottom: 10
                                 },
                                 children: "25 days. 9 AI-powered courses. One life-changing summer."
                             }, void 0, false, {
                                 fileName: "[project]/components/ActivityCampSection.tsx",
-                                lineNumber: 290,
+                                lineNumber: 219,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].p, {
                                 initial: {
-                                    opacity: 0,
-                                    y: 20
+                                    opacity: 0
                                 },
                                 animate: {
-                                    opacity: 1,
-                                    y: 0
+                                    opacity: 1
                                 },
                                 transition: {
-                                    delay: 1.1,
-                                    duration: .9
+                                    delay: 1.05
                                 },
                                 style: {
-                                    fontSize: 9,
-                                    letterSpacing: '0.25em',
+                                    fontSize: 'clamp(7px,1.6vw,9px)',
+                                    letterSpacing: '0.18em',
                                     textTransform: 'uppercase',
                                     color: '#2a3050',
-                                    marginBottom: 48
+                                    marginBottom: 32
                                 },
                                 children: [
                                     "📍 ",
@@ -1594,137 +1520,121 @@ function ActivityCampSection() {
                                         children: "The Oxford Computers"
                                     }, void 0, false, {
                                         fileName: "[project]/components/ActivityCampSection.tsx",
-                                        lineNumber: 297,
+                                        lineNumber: 225,
                                         columnNumber: 16
                                     }, this),
-                                    " · Malayinkeezhu, Trivandrum, Kerala"
+                                    " · Malayinkeezhu, Trivandrum"
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/ActivityCampSection.tsx",
-                                lineNumber: 295,
+                                lineNumber: 223,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
                                 initial: {
                                     opacity: 0,
-                                    y: 32
+                                    y: 20
                                 },
                                 animate: {
                                     opacity: 1,
                                     y: 0
                                 },
                                 transition: {
-                                    delay: 1.25,
-                                    duration: .9
+                                    delay: 1.15
                                 },
+                                className: "hero-btns",
                                 style: {
                                     display: 'flex',
-                                    gap: 14,
+                                    gap: 10,
                                     justifyContent: 'center',
                                     flexWrap: 'wrap',
-                                    marginBottom: 52
+                                    marginBottom: 44
                                 },
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                         href: "#ac-register",
-                                        onClick: (e)=>{
-                                            e.preventDefault();
-                                            document.getElementById('ac-register')?.scrollIntoView({
-                                                behavior: 'smooth'
-                                            });
-                                        },
+                                        onClick: scrollTo('ac-register'),
                                         style: {
                                             background: '#FFB800',
                                             color: '#000507',
-                                            fontFamily: 'JetBrains Mono, monospace',
-                                            fontSize: 10,
+                                            fontFamily: 'JetBrains Mono,monospace',
+                                            fontSize: 'clamp(9px,1.8vw,10px)',
                                             fontWeight: 700,
-                                            letterSpacing: '0.18em',
+                                            letterSpacing: '0.15em',
                                             textTransform: 'uppercase',
-                                            padding: '18px 44px',
-                                            border: 'none',
-                                            cursor: 'pointer',
+                                            padding: 'clamp(13px,2.5vw,17px) clamp(24px,5vw,40px)',
                                             textDecoration: 'none',
                                             display: 'inline-flex',
                                             alignItems: 'center',
-                                            gap: 8
+                                            gap: 7
                                         },
                                         children: "Apply for 2026 Batch →"
                                     }, void 0, false, {
                                         fileName: "[project]/components/ActivityCampSection.tsx",
-                                        lineNumber: 302,
+                                        lineNumber: 228,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                         href: "#ac-courses",
-                                        onClick: (e)=>{
-                                            e.preventDefault();
-                                            document.getElementById('ac-courses')?.scrollIntoView({
-                                                behavior: 'smooth'
-                                            });
-                                        },
+                                        onClick: scrollTo('ac-courses'),
                                         style: {
                                             background: 'transparent',
                                             color: '#EFF3FF',
-                                            fontFamily: 'JetBrains Mono, monospace',
-                                            fontSize: 10,
+                                            fontFamily: 'JetBrains Mono,monospace',
+                                            fontSize: 'clamp(9px,1.8vw,10px)',
                                             fontWeight: 700,
-                                            letterSpacing: '0.18em',
+                                            letterSpacing: '0.15em',
                                             textTransform: 'uppercase',
-                                            padding: '18px 44px',
+                                            padding: 'clamp(13px,2.5vw,17px) clamp(24px,5vw,40px)',
                                             border: '1px solid #2a3050',
-                                            cursor: 'pointer',
                                             textDecoration: 'none',
                                             display: 'inline-flex',
                                             alignItems: 'center',
-                                            gap: 8
+                                            gap: 7
                                         },
                                         children: "View All 9 Courses"
                                     }, void 0, false, {
                                         fileName: "[project]/components/ActivityCampSection.tsx",
-                                        lineNumber: 306,
+                                        lineNumber: 229,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/ActivityCampSection.tsx",
-                                lineNumber: 300,
+                                lineNumber: 227,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
                                 initial: {
-                                    opacity: 0,
-                                    y: 32
+                                    opacity: 0
                                 },
                                 animate: {
-                                    opacity: 1,
-                                    y: 0
+                                    opacity: 1
                                 },
                                 transition: {
-                                    delay: 1.5,
-                                    duration: .9
+                                    delay: 1.35
                                 },
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         style: {
-                                            fontSize: 8,
-                                            letterSpacing: '0.3em',
+                                            fontSize: 'clamp(7px,1.5vw,8px)',
+                                            letterSpacing: '0.22em',
                                             textTransform: 'uppercase',
                                             color: '#2a3050',
-                                            marginBottom: 14
+                                            marginBottom: 10
                                         },
                                         children: "Camp starts soon — secure your seat"
                                     }, void 0, false, {
                                         fileName: "[project]/components/ActivityCampSection.tsx",
-                                        lineNumber: 314,
+                                        lineNumber: 232,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         style: {
                                             display: 'flex',
-                                            gap: 12,
+                                            gap: 'clamp(6px,2vw,12px)',
                                             justifyContent: 'center',
-                                            flexWrap: 'wrap'
+                                            alignItems: 'center'
                                         },
                                         children: [
                                             [
@@ -1743,200 +1653,171 @@ function ActivityCampSection() {
                                                 's',
                                                 'Secs'
                                             ]
-                                        ].map(([k, unit], i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"].Fragment, {
+                                        ].map(([k, u], i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"].Fragment, {
                                                 children: [
                                                     i > 0 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                         style: {
-                                                            fontFamily: 'Syne, sans-serif',
+                                                            fontFamily: 'Syne,sans-serif',
                                                             fontWeight: 800,
-                                                            fontSize: 28,
-                                                            color: '#2a3050',
-                                                            alignSelf: 'flex-start',
-                                                            marginTop: 4
+                                                            fontSize: 'clamp(20px,4.5vw,28px)',
+                                                            color: '#2a3050'
                                                         },
                                                         children: ":"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/ActivityCampSection.tsx",
-                                                        lineNumber: 318,
+                                                        lineNumber: 236,
                                                         columnNumber: 29
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                         style: {
-                                                            width: 72,
+                                                            width: 'clamp(52px,12vw,68px)',
                                                             textAlign: 'center'
                                                         },
                                                         children: [
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                                 style: {
-                                                                    fontFamily: 'Syne, sans-serif',
+                                                                    fontFamily: 'Syne,sans-serif',
                                                                     fontWeight: 800,
-                                                                    fontSize: 36,
+                                                                    fontSize: 'clamp(26px,6.5vw,34px)',
                                                                     color: '#FFB800',
                                                                     lineHeight: 1,
                                                                     display: 'block'
                                                                 },
-                                                                children: countdown[k]
+                                                                children: cd[k]
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/ActivityCampSection.tsx",
-                                                                lineNumber: 320,
+                                                                lineNumber: 238,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                                 style: {
-                                                                    fontSize: 7,
-                                                                    letterSpacing: '0.2em',
+                                                                    fontSize: 'clamp(6px,1.3vw,7px)',
+                                                                    letterSpacing: '0.16em',
                                                                     textTransform: 'uppercase',
                                                                     color: '#2a3050',
-                                                                    marginTop: 4,
+                                                                    marginTop: 3,
                                                                     display: 'block'
                                                                 },
-                                                                children: unit
+                                                                children: u
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/ActivityCampSection.tsx",
-                                                                lineNumber: 321,
+                                                                lineNumber: 239,
                                                                 columnNumber: 21
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/components/ActivityCampSection.tsx",
-                                                        lineNumber: 319,
+                                                        lineNumber: 237,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, k, true, {
                                                 fileName: "[project]/components/ActivityCampSection.tsx",
-                                                lineNumber: 317,
+                                                lineNumber: 235,
                                                 columnNumber: 17
                                             }, this))
                                     }, void 0, false, {
                                         fileName: "[project]/components/ActivityCampSection.tsx",
-                                        lineNumber: 315,
+                                        lineNumber: 233,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/ActivityCampSection.tsx",
-                                lineNumber: 313,
+                                lineNumber: 231,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/ActivityCampSection.tsx",
-                        lineNumber: 270,
+                        lineNumber: 204,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/ActivityCampSection.tsx",
-                lineNumber: 254,
+                lineNumber: 201,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 style: {
                     background: '#FFB800',
                     overflow: 'hidden',
-                    padding: '14px 0'
+                    padding: '11px 0'
                 },
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     style: {
                         display: 'flex',
-                        animation: 'tick 32s linear infinite',
+                        animation: 'tickR 30s linear infinite',
                         whiteSpace: 'nowrap'
                     },
                     children: [
-                        'AI Digital Marketing',
-                        'AI Office Suite',
-                        'AI Web App Dev',
-                        'Junior YouTuber',
-                        'AI Prompt Engineer',
-                        'AI Designer',
-                        'Junior Python',
-                        'Game Dev',
-                        'Generative AI',
-                        '25 Days',
-                        'Kerala Rutronix Approved',
-                        'Malayinkeezhu Trivandrum',
-                        'Real Certificates',
-                        'School & College Students',
-                        '2026 Batch',
-                        'AI Digital Marketing',
-                        'AI Office Suite',
-                        'AI Web App Dev',
-                        'Junior YouTuber',
-                        'AI Prompt Engineer',
-                        'AI Designer',
-                        'Junior Python',
-                        'Game Dev',
-                        'Generative AI',
-                        '25 Days',
-                        'Kerala Rutronix Approved',
-                        'Malayinkeezhu Trivandrum',
-                        'Real Certificates',
-                        'School & College Students',
-                        '2026 Batch'
-                    ].map((t, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            style: {
-                                fontFamily: 'Syne, sans-serif',
-                                fontWeight: 800,
-                                fontSize: 11,
-                                letterSpacing: '0.2em',
-                                textTransform: 'uppercase',
-                                color: '#000507',
-                                padding: '0 32px',
-                                display: 'flex',
-                                alignItems: 'center',
-                                gap: 14,
-                                flexShrink: 0
-                            },
-                            children: [
-                                t,
-                                " ",
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                    style: {
-                                        fontSize: 7
-                                    },
-                                    children: "★"
-                                }, void 0, false, {
-                                    fileName: "[project]/components/ActivityCampSection.tsx",
-                                    lineNumber: 336,
-                                    columnNumber: 19
-                                }, this)
-                            ]
-                        }, i, true, {
-                            fileName: "[project]/components/ActivityCampSection.tsx",
-                            lineNumber: 335,
-                            columnNumber: 13
-                        }, this))
+                        ...Array(2)
+                    ].map((_, r)=>[
+                            'AI Digital Marketing',
+                            'AI Office Suite',
+                            'AI Web App Dev',
+                            'Junior YouTuber',
+                            'AI Prompt Engineer',
+                            'AI Designer',
+                            'Junior Python',
+                            'Game Dev',
+                            'Generative AI',
+                            '25 Days',
+                            'Rutronix Approved',
+                            'Limited Seats'
+                        ].map((t, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                style: {
+                                    fontFamily: 'Syne,sans-serif',
+                                    fontWeight: 800,
+                                    fontSize: 'clamp(9px,1.8vw,11px)',
+                                    letterSpacing: '0.16em',
+                                    textTransform: 'uppercase',
+                                    color: '#000507',
+                                    padding: '0 22px',
+                                    flexShrink: 0
+                                },
+                                children: [
+                                    t,
+                                    " ",
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                        style: {
+                                            fontSize: 6
+                                        },
+                                        children: "★"
+                                    }, void 0, false, {
+                                        fileName: "[project]/components/ActivityCampSection.tsx",
+                                        lineNumber: 252,
+                                        columnNumber: 240
+                                    }, this)
+                                ]
+                            }, `${r}-${i}`, true, {
+                                fileName: "[project]/components/ActivityCampSection.tsx",
+                                lineNumber: 252,
+                                columnNumber: 13
+                            }, this)))
                 }, void 0, false, {
                     fileName: "[project]/components/ActivityCampSection.tsx",
-                    lineNumber: 332,
+                    lineNumber: 250,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/ActivityCampSection.tsx",
-                lineNumber: 331,
+                lineNumber: 249,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
                 style: {
                     background: '#080d18',
-                    borderTop: '1px solid rgba(255,255,255,.04)',
-                    borderBottom: '1px solid rgba(255,255,255,.04)',
-                    padding: '56px 56px'
+                    padding: 'clamp(36px,7vw,52px) clamp(20px,5vw,56px)'
                 },
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    style: {
-                        display: 'grid',
-                        gridTemplateColumns: 'repeat(4,1fr)',
-                        gap: 2,
-                        maxWidth: 1200,
-                        margin: '0 auto'
-                    },
+                    className: "g4 mx",
                     children: STATS.map((s, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(FadeIn, {
-                            delay: i * 0.1,
+                            delay: i * 0.09,
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 style: {
-                                    padding: '40px 36px',
+                                    padding: 'clamp(22px,4vw,36px) clamp(14px,3vw,28px)',
                                     background: 'rgba(255,255,255,.015)',
                                     textAlign: 'center',
                                     borderRight: i < STATS.length - 1 ? '1px solid rgba(255,255,255,.04)' : 'none'
@@ -1948,47 +1829,47 @@ function ActivityCampSection() {
                                         color: s.color
                                     }, void 0, false, {
                                         fileName: "[project]/components/ActivityCampSection.tsx",
-                                        lineNumber: 348,
+                                        lineNumber: 263,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         style: {
-                                            fontSize: 8,
-                                            letterSpacing: '0.22em',
+                                            fontSize: 'clamp(7px,1.4vw,8px)',
+                                            letterSpacing: '0.18em',
                                             textTransform: 'uppercase',
                                             color: '#2a3050'
                                         },
                                         children: s.label
                                     }, void 0, false, {
                                         fileName: "[project]/components/ActivityCampSection.tsx",
-                                        lineNumber: 349,
+                                        lineNumber: 264,
                                         columnNumber: 17
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/ActivityCampSection.tsx",
-                                lineNumber: 347,
+                                lineNumber: 262,
                                 columnNumber: 15
                             }, this)
                         }, i, false, {
                             fileName: "[project]/components/ActivityCampSection.tsx",
-                            lineNumber: 346,
+                            lineNumber: 261,
                             columnNumber: 13
                         }, this))
                 }, void 0, false, {
                     fileName: "[project]/components/ActivityCampSection.tsx",
-                    lineNumber: 344,
+                    lineNumber: 259,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/ActivityCampSection.tsx",
-                lineNumber: 343,
+                lineNumber: 258,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
                 id: "ac-courses",
+                className: "sp",
                 style: {
-                    padding: '120px 56px',
                     background: '#000507',
                     position: 'relative'
                 },
@@ -2004,122 +1885,109 @@ function ActivityCampSection() {
                         }
                     }, void 0, false, {
                         fileName: "[project]/components/ActivityCampSection.tsx",
-                        lineNumber: 358,
+                        lineNumber: 273,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "mx",
                         style: {
-                            maxWidth: 1200,
-                            margin: '0 auto 80px',
-                            display: 'flex',
-                            alignItems: 'flex-end',
-                            justifyContent: 'space-between',
-                            flexWrap: 'wrap',
-                            gap: 32
+                            marginBottom: 40
                         },
                         children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(FadeIn, {
-                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(SectionLabel, {
-                                            children: "Nine AI Courses · Pick Your Passion"
-                                        }, void 0, false, {
-                                            fileName: "[project]/components/ActivityCampSection.tsx",
-                                            lineNumber: 361,
-                                            columnNumber: 21
-                                        }, this)
-                                    }, void 0, false, {
-                                        fileName: "[project]/components/ActivityCampSection.tsx",
-                                        lineNumber: 361,
-                                        columnNumber: 13
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(FadeIn, {
-                                        delay: 0.1,
-                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(SectionTitle, {
-                                            children: [
-                                                "The ",
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(Gold, {
-                                                    children: "2026"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/components/ActivityCampSection.tsx",
-                                                    lineNumber: 362,
-                                                    columnNumber: 51
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
-                                                    fileName: "[project]/components/ActivityCampSection.tsx",
-                                                    lineNumber: 362,
-                                                    columnNumber: 68
-                                                }, this),
-                                                "Course ",
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                    style: {
-                                                        color: 'transparent',
-                                                        WebkitTextStroke: '1px rgba(239,243,255,.18)'
-                                                    },
-                                                    children: "Lineup"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/components/ActivityCampSection.tsx",
-                                                    lineNumber: 362,
-                                                    columnNumber: 80
-                                                }, this)
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "[project]/components/ActivityCampSection.tsx",
-                                            lineNumber: 362,
-                                            columnNumber: 33
-                                        }, this)
-                                    }, void 0, false, {
-                                        fileName: "[project]/components/ActivityCampSection.tsx",
-                                        lineNumber: 362,
-                                        columnNumber: 13
-                                    }, this)
-                                ]
-                            }, void 0, true, {
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(FadeIn, {
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                    className: "sl",
+                                    children: "Nine AI Courses · Pick Your Passion"
+                                }, void 0, false, {
+                                    fileName: "[project]/components/ActivityCampSection.tsx",
+                                    lineNumber: 275,
+                                    columnNumber: 19
+                                }, this)
+                            }, void 0, false, {
                                 fileName: "[project]/components/ActivityCampSection.tsx",
-                                lineNumber: 360,
+                                lineNumber: 275,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(FadeIn, {
-                                delay: 0.2,
-                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    style: {
-                                        fontFamily: 'DM Serif Display, serif',
-                                        fontStyle: 'italic',
-                                        fontSize: 17,
-                                        color: 'rgba(239,243,255,.4)',
-                                        maxWidth: 380
-                                    },
-                                    children: "Choose any one course for your 25-day journey — or discuss combinations with our counsellors."
-                                }, void 0, false, {
+                                delay: 0.1,
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                    className: "st",
+                                    children: [
+                                        "The ",
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                            style: {
+                                                color: '#FFB800'
+                                            },
+                                            children: "2026"
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/ActivityCampSection.tsx",
+                                            lineNumber: 276,
+                                            columnNumber: 54
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                                            fileName: "[project]/components/ActivityCampSection.tsx",
+                                            lineNumber: 276,
+                                            columnNumber: 100
+                                        }, this),
+                                        "Course ",
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                            style: {
+                                                color: 'transparent',
+                                                WebkitTextStroke: '1px rgba(239,243,255,.18)'
+                                            },
+                                            children: "Lineup"
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/ActivityCampSection.tsx",
+                                            lineNumber: 276,
+                                            columnNumber: 113
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
                                     fileName: "[project]/components/ActivityCampSection.tsx",
-                                    lineNumber: 364,
+                                    lineNumber: 276,
                                     columnNumber: 31
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/ActivityCampSection.tsx",
-                                lineNumber: 364,
+                                lineNumber: 276,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(FadeIn, {
+                                delay: 0.15,
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                    className: "sb",
+                                    style: {
+                                        maxWidth: 400
+                                    },
+                                    children: "Choose any one course for your 25-day journey — or discuss combinations with our counsellors."
+                                }, void 0, false, {
+                                    fileName: "[project]/components/ActivityCampSection.tsx",
+                                    lineNumber: 277,
+                                    columnNumber: 32
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "[project]/components/ActivityCampSection.tsx",
+                                lineNumber: 277,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/ActivityCampSection.tsx",
-                        lineNumber: 359,
+                        lineNumber: 274,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(FadeIn, {
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "mx",
                             style: {
-                                maxWidth: 1200,
-                                margin: '0 auto 60px',
-                                padding: '0 0px'
+                                marginBottom: 36
                             },
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 style: {
-                                    background: 'linear-gradient(135deg,rgba(255,184,0,.08) 0%,rgba(0,229,255,.06) 50%,rgba(180,127,255,.08) 100%)',
+                                    background: 'linear-gradient(135deg,rgba(255,184,0,.08),rgba(0,229,255,.06),rgba(180,127,255,.08))',
                                     border: '1px solid rgba(255,184,0,.25)',
-                                    padding: '40px 48px',
-                                    position: 'relative',
-                                    overflow: 'hidden'
+                                    padding: 'clamp(22px,4vw,38px) clamp(18px,3.5vw,40px)',
+                                    position: 'relative'
                                 },
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2133,90 +2001,90 @@ function ActivityCampSection() {
                                         }
                                     }, void 0, false, {
                                         fileName: "[project]/components/ActivityCampSection.tsx",
-                                        lineNumber: 371,
+                                        lineNumber: 282,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         style: {
                                             display: 'flex',
                                             alignItems: 'flex-start',
-                                            gap: 24,
+                                            gap: 18,
                                             flexWrap: 'wrap'
                                         },
                                         children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                 style: {
-                                                    fontSize: 48,
-                                                    lineHeight: 1
+                                                    fontSize: 'clamp(32px,6vw,44px)',
+                                                    lineHeight: 1,
+                                                    flexShrink: 0
                                                 },
                                                 children: "🏛️"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/ActivityCampSection.tsx",
-                                                lineNumber: 373,
+                                                lineNumber: 284,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                 style: {
                                                     flex: 1,
-                                                    minWidth: 260
+                                                    minWidth: 200
                                                 },
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                         style: {
                                                             display: 'flex',
-                                                            alignItems: 'center',
-                                                            gap: 12,
+                                                            gap: 7,
                                                             flexWrap: 'wrap',
-                                                            marginBottom: 14
+                                                            marginBottom: 10
                                                         },
                                                         children: [
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                                 style: {
-                                                                    fontSize: 8,
-                                                                    letterSpacing: '0.3em',
+                                                                    fontSize: 'clamp(6px,1.4vw,8px)',
+                                                                    letterSpacing: '0.22em',
                                                                     textTransform: 'uppercase',
                                                                     color: '#FFB800',
                                                                     background: 'rgba(255,184,0,.12)',
                                                                     border: '1px solid rgba(255,184,0,.3)',
-                                                                    padding: '4px 12px',
-                                                                    fontFamily: 'JetBrains Mono, monospace'
+                                                                    padding: '3px 9px',
+                                                                    fontFamily: 'JetBrains Mono,monospace'
                                                                 },
-                                                                children: "Kerala State Rutronix Initiative"
+                                                                children: "Kerala State Rutronix"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/ActivityCampSection.tsx",
-                                                                lineNumber: 376,
+                                                                lineNumber: 287,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                                 style: {
-                                                                    fontSize: 8,
-                                                                    letterSpacing: '0.2em',
+                                                                    fontSize: 'clamp(6px,1.4vw,8px)',
+                                                                    letterSpacing: '0.18em',
                                                                     textTransform: 'uppercase',
                                                                     color: '#00E5FF',
                                                                     background: 'rgba(0,229,255,.1)',
                                                                     border: '1px solid rgba(0,229,255,.25)',
-                                                                    padding: '4px 12px',
-                                                                    fontFamily: 'JetBrains Mono, monospace'
+                                                                    padding: '3px 9px',
+                                                                    fontFamily: 'JetBrains Mono,monospace'
                                                                 },
-                                                                children: "🤖 14+ AI Tools Included"
+                                                                children: "🤖 14+ AI Tools"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/ActivityCampSection.tsx",
-                                                                lineNumber: 377,
+                                                                lineNumber: 288,
                                                                 columnNumber: 21
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/components/ActivityCampSection.tsx",
-                                                        lineNumber: 375,
+                                                        lineNumber: 286,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                                         style: {
-                                                            fontFamily: 'Syne, sans-serif',
+                                                            fontFamily: 'Syne,sans-serif',
                                                             fontWeight: 800,
-                                                            fontSize: 'clamp(20px,3.5vw,34px)',
+                                                            fontSize: 'clamp(16px,3vw,28px)',
                                                             lineHeight: 1.1,
-                                                            marginBottom: 14,
+                                                            marginBottom: 10,
                                                             color: '#EFF3FF'
                                                         },
                                                         children: [
@@ -2228,38 +2096,26 @@ function ActivityCampSection() {
                                                                 children: "— Kerala State Rutronix"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/ActivityCampSection.tsx",
-                                                                lineNumber: 380,
-                                                                columnNumber: 44
+                                                                lineNumber: 290,
+                                                                columnNumber: 192
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/components/ActivityCampSection.tsx",
-                                                        lineNumber: 379,
+                                                        lineNumber: 290,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                         style: {
-                                                            fontFamily: 'DM Serif Display, serif',
+                                                            fontFamily: 'DM Serif Display,serif',
                                                             fontStyle: 'italic',
-                                                            fontSize: 17,
-                                                            lineHeight: 1.7,
+                                                            fontSize: 'clamp(13px,2vw,15px)',
+                                                            lineHeight: 1.65,
                                                             color: 'rgba(239,243,255,.65)',
-                                                            marginBottom: 20
+                                                            marginBottom: 14
                                                         },
                                                         children: [
-                                                            "Kerala State Rutronix is bringing you ",
-                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                                                style: {
-                                                                    color: '#EFF3FF',
-                                                                    fontStyle: 'normal'
-                                                                },
-                                                                children: '"AI Education for All"'
-                                                            }, void 0, false, {
-                                                                fileName: "[project]/components/ActivityCampSection.tsx",
-                                                                lineNumber: 383,
-                                                                columnNumber: 59
-                                                            }, this),
-                                                            " — along with your chosen course, you get to explore ",
+                                                            "Along with your chosen course, explore ",
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
                                                                 style: {
                                                                     color: '#FFB800',
@@ -2268,21 +2124,21 @@ function ActivityCampSection() {
                                                                 children: "14+ powerful AI tools"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/ActivityCampSection.tsx",
-                                                                lineNumber: 383,
-                                                                columnNumber: 199
+                                                                lineNumber: 291,
+                                                                columnNumber: 233
                                                             }, this),
                                                             " to supercharge your learning."
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/components/ActivityCampSection.tsx",
-                                                        lineNumber: 382,
+                                                        lineNumber: 291,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                         style: {
                                                             display: 'flex',
                                                             flexWrap: 'wrap',
-                                                            gap: 8
+                                                            gap: 5
                                                         },
                                                         children: [
                                                             [
@@ -2310,91 +2166,84 @@ function ActivityCampSection() {
                                                                 '#FF7A2F'
                                                             ],
                                                             [
-                                                                '+ 8 More Tools',
+                                                                '+ 8 More',
                                                                 'rgba(239,243,255,.6)'
                                                             ]
                                                         ].map(([t, c])=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                                 style: {
-                                                                    fontSize: 8,
-                                                                    letterSpacing: '0.15em',
+                                                                    fontSize: 'clamp(6px,1.2vw,8px)',
+                                                                    letterSpacing: '0.1em',
                                                                     textTransform: 'uppercase',
-                                                                    padding: '5px 12px',
+                                                                    padding: '3px 8px',
                                                                     border: `1px solid ${c}40`,
                                                                     color: c,
-                                                                    fontFamily: 'JetBrains Mono, monospace'
+                                                                    fontFamily: 'JetBrains Mono,monospace'
                                                                 },
                                                                 children: t
                                                             }, t, false, {
                                                                 fileName: "[project]/components/ActivityCampSection.tsx",
-                                                                lineNumber: 387,
+                                                                lineNumber: 294,
                                                                 columnNumber: 23
                                                             }, this))
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/ActivityCampSection.tsx",
-                                                        lineNumber: 385,
+                                                        lineNumber: 292,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/ActivityCampSection.tsx",
-                                                lineNumber: 374,
+                                                lineNumber: 285,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/ActivityCampSection.tsx",
-                                        lineNumber: 372,
+                                        lineNumber: 283,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/ActivityCampSection.tsx",
-                                lineNumber: 370,
+                                lineNumber: 281,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/components/ActivityCampSection.tsx",
-                            lineNumber: 369,
+                            lineNumber: 280,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/ActivityCampSection.tsx",
-                        lineNumber: 368,
+                        lineNumber: 279,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        style: {
-                            maxWidth: 1200,
-                            margin: '0 auto',
-                            display: 'grid',
-                            gridTemplateColumns: 'repeat(3,1fr)',
-                            gap: 2
-                        },
+                        className: "g3 mx",
                         children: COURSES.map((c, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(CourseCard, {
                                 course: c,
                                 index: i
                             }, i, false, {
                                 fileName: "[project]/components/ActivityCampSection.tsx",
-                                lineNumber: 397,
+                                lineNumber: 303,
                                 columnNumber: 34
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/components/ActivityCampSection.tsx",
-                        lineNumber: 396,
+                        lineNumber: 302,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/ActivityCampSection.tsx",
-                lineNumber: 357,
+                lineNumber: 272,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+                className: "sp",
                 style: {
-                    padding: '120px 56px',
                     background: '#080d18',
-                    position: 'relative',
-                    overflow: 'hidden'
+                    position: 'relative'
                 },
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2408,195 +2257,188 @@ function ActivityCampSection() {
                         }
                     }, void 0, false, {
                         fileName: "[project]/components/ActivityCampSection.tsx",
-                        lineNumber: 403,
+                        lineNumber: 309,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        style: {
-                            maxWidth: 1200,
-                            margin: '0 auto'
-                        },
+                        className: "mx",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(FadeIn, {
-                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(SectionLabel, {
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                    className: "sl",
                                     children: "Eligibility"
                                 }, void 0, false, {
                                     fileName: "[project]/components/ActivityCampSection.tsx",
-                                    lineNumber: 405,
+                                    lineNumber: 311,
                                     columnNumber: 19
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/ActivityCampSection.tsx",
-                                lineNumber: 405,
+                                lineNumber: 311,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(FadeIn, {
                                 delay: 0.1,
-                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(SectionTitle, {
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                    className: "st",
                                     children: [
                                         "Who Can ",
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(Gold, {
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                            style: {
+                                                color: '#FFB800'
+                                            },
                                             children: "Join?"
                                         }, void 0, false, {
                                             fileName: "[project]/components/ActivityCampSection.tsx",
-                                            lineNumber: 406,
-                                            columnNumber: 53
+                                            lineNumber: 312,
+                                            columnNumber: 58
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/ActivityCampSection.tsx",
-                                    lineNumber: 406,
+                                    lineNumber: 312,
                                     columnNumber: 31
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/ActivityCampSection.tsx",
-                                lineNumber: 406,
+                                lineNumber: 312,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(FadeIn, {
-                                delay: 0.2,
+                                delay: 0.15,
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                    className: "sb",
                                     style: {
-                                        fontFamily: 'DM Serif Display, serif',
-                                        fontStyle: 'italic',
-                                        fontSize: 18,
-                                        lineHeight: 1.7,
-                                        color: 'rgba(239,243,255,.5)',
-                                        maxWidth: 560
+                                        maxWidth: 500,
+                                        marginBottom: 40
                                     },
-                                    children: "This camp is built for young minds at every level. No prior computer knowledge required — just curiosity and the willingness to learn."
+                                    children: "Built for young minds at every level. No prior computer knowledge required — just curiosity and willingness to learn."
                                 }, void 0, false, {
                                     fileName: "[project]/components/ActivityCampSection.tsx",
-                                    lineNumber: 407,
-                                    columnNumber: 31
+                                    lineNumber: 313,
+                                    columnNumber: 32
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/ActivityCampSection.tsx",
-                                lineNumber: 407,
+                                lineNumber: 313,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "g3w",
+                                children: [
+                                    {
+                                        icon: '🏫',
+                                        title: 'School Students',
+                                        body: 'Class 5 to Class 12. Both Malayalam and English medium welcome. Separate junior (5–8) and senior (9–12) batches ensure the right pace.',
+                                        accent: '#FFB800'
+                                    },
+                                    {
+                                        icon: '🎓',
+                                        title: 'College Students',
+                                        body: "Degree, Diploma, and Plus Two students. Vacation time is the perfect opportunity to gain AI skills your course doesn't teach.",
+                                        accent: '#00E5FF'
+                                    },
+                                    {
+                                        icon: '👩‍💻',
+                                        title: 'Beginners Welcome',
+                                        body: 'Zero computer knowledge needed. Trainers start from basics and guide every student through real projects in both Malayalam and English.',
+                                        accent: '#00FF9D'
+                                    }
+                                ].map((card, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(FadeIn, {
+                                        delay: i * 0.1,
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            style: {
+                                                padding: 'clamp(24px,4.5vw,38px) clamp(18px,3.5vw,30px)',
+                                                background: 'rgba(3,6,15,.5)',
+                                                border: '1px solid rgba(255,255,255,.05)',
+                                                position: 'relative'
+                                            },
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    style: {
+                                                        position: 'absolute',
+                                                        top: 0,
+                                                        left: 0,
+                                                        width: 3,
+                                                        height: '100%',
+                                                        background: card.accent
+                                                    }
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/ActivityCampSection.tsx",
+                                                    lineNumber: 322,
+                                                    columnNumber: 19
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                    style: {
+                                                        fontSize: 'clamp(34px,7vw,42px)',
+                                                        marginBottom: 14,
+                                                        display: 'block'
+                                                    },
+                                                    children: card.icon
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/ActivityCampSection.tsx",
+                                                    lineNumber: 323,
+                                                    columnNumber: 19
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                                    style: {
+                                                        fontFamily: 'Syne,sans-serif',
+                                                        fontWeight: 800,
+                                                        fontSize: 'clamp(17px,3vw,21px)',
+                                                        color: '#EFF3FF',
+                                                        marginBottom: 8
+                                                    },
+                                                    children: card.title
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/ActivityCampSection.tsx",
+                                                    lineNumber: 324,
+                                                    columnNumber: 19
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                    style: {
+                                                        fontFamily: 'DM Serif Display,serif',
+                                                        fontStyle: 'italic',
+                                                        fontSize: 'clamp(13px,2vw,15px)',
+                                                        lineHeight: 1.65,
+                                                        color: 'rgba(239,243,255,.5)'
+                                                    },
+                                                    children: card.body
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/ActivityCampSection.tsx",
+                                                    lineNumber: 325,
+                                                    columnNumber: 19
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/components/ActivityCampSection.tsx",
+                                            lineNumber: 321,
+                                            columnNumber: 17
+                                        }, this)
+                                    }, i, false, {
+                                        fileName: "[project]/components/ActivityCampSection.tsx",
+                                        lineNumber: 320,
+                                        columnNumber: 15
+                                    }, this))
+                            }, void 0, false, {
+                                fileName: "[project]/components/ActivityCampSection.tsx",
+                                lineNumber: 314,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/ActivityCampSection.tsx",
-                        lineNumber: 404,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        style: {
-                            maxWidth: 1200,
-                            margin: '60px auto 0',
-                            display: 'grid',
-                            gridTemplateColumns: 'repeat(3,1fr)',
-                            gap: 20
-                        },
-                        children: [
-                            {
-                                icon: '🏫',
-                                title: 'School Students',
-                                body: 'Class 5 to Class 12. Both Malayalam and English medium students are welcome. Separate junior (Class 5–8) and senior (Class 9–12) batches ensure the right learning pace.',
-                                accent: '#FFB800'
-                            },
-                            {
-                                icon: '🎓',
-                                title: 'College Students',
-                                body: 'Degree, Diploma, and Plus Two students. Vacation time is the perfect opportunity to gain AI skills that your course doesn\'t teach — and your future employer will value.',
-                                accent: '#00E5FF'
-                            },
-                            {
-                                icon: '👩‍💻',
-                                title: 'Beginners Welcome',
-                                body: 'Zero computer knowledge needed. Our trainers start from basics and guide every student through real projects at their own pace, in both Malayalam and English.',
-                                accent: '#00FF9D'
-                            }
-                        ].map((card, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(FadeIn, {
-                                delay: i * 0.15,
-                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    style: {
-                                        padding: '40px 32px',
-                                        background: 'rgba(3,6,15,.5)',
-                                        border: '1px solid rgba(255,255,255,.05)',
-                                        position: 'relative'
-                                    },
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            style: {
-                                                position: 'absolute',
-                                                top: 0,
-                                                left: 0,
-                                                width: 3,
-                                                height: '100%',
-                                                background: card.accent
-                                            }
-                                        }, void 0, false, {
-                                            fileName: "[project]/components/ActivityCampSection.tsx",
-                                            lineNumber: 417,
-                                            columnNumber: 17
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                            style: {
-                                                fontSize: 44,
-                                                marginBottom: 20,
-                                                display: 'block'
-                                            },
-                                            children: card.icon
-                                        }, void 0, false, {
-                                            fileName: "[project]/components/ActivityCampSection.tsx",
-                                            lineNumber: 418,
-                                            columnNumber: 17
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                            style: {
-                                                fontFamily: 'Syne, sans-serif',
-                                                fontWeight: 800,
-                                                fontSize: 22,
-                                                color: '#EFF3FF',
-                                                marginBottom: 12
-                                            },
-                                            children: card.title
-                                        }, void 0, false, {
-                                            fileName: "[project]/components/ActivityCampSection.tsx",
-                                            lineNumber: 419,
-                                            columnNumber: 17
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                            style: {
-                                                fontFamily: 'DM Serif Display, serif',
-                                                fontStyle: 'italic',
-                                                fontSize: 16,
-                                                lineHeight: 1.65,
-                                                color: 'rgba(239,243,255,.5)'
-                                            },
-                                            children: card.body
-                                        }, void 0, false, {
-                                            fileName: "[project]/components/ActivityCampSection.tsx",
-                                            lineNumber: 420,
-                                            columnNumber: 17
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "[project]/components/ActivityCampSection.tsx",
-                                    lineNumber: 416,
-                                    columnNumber: 15
-                                }, this)
-                            }, i, false, {
-                                fileName: "[project]/components/ActivityCampSection.tsx",
-                                lineNumber: 415,
-                                columnNumber: 13
-                            }, this))
-                    }, void 0, false, {
-                        fileName: "[project]/components/ActivityCampSection.tsx",
-                        lineNumber: 409,
+                        lineNumber: 310,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/ActivityCampSection.tsx",
-                lineNumber: 402,
+                lineNumber: 308,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+                className: "sp",
                 style: {
-                    padding: '120px 56px',
                     background: '#000507',
                     position: 'relative'
                 },
@@ -2612,269 +2454,267 @@ function ActivityCampSection() {
                         }
                     }, void 0, false, {
                         fileName: "[project]/components/ActivityCampSection.tsx",
-                        lineNumber: 429,
+                        lineNumber: 335,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        style: {
-                            maxWidth: 1200,
-                            margin: '0 auto'
-                        },
+                        className: "mx",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(FadeIn, {
-                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(SectionLabel, {
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                    className: "sl",
                                     children: "Our Advantage"
                                 }, void 0, false, {
                                     fileName: "[project]/components/ActivityCampSection.tsx",
-                                    lineNumber: 431,
+                                    lineNumber: 337,
                                     columnNumber: 19
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/ActivityCampSection.tsx",
-                                lineNumber: 431,
+                                lineNumber: 337,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(FadeIn, {
                                 delay: 0.1,
-                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(SectionTitle, {
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                    className: "st",
                                     children: [
                                         "Why Choose ",
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(Gold, {
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                            style: {
+                                                color: '#FFB800'
+                                            },
                                             children: "Oxford?"
                                         }, void 0, false, {
                                             fileName: "[project]/components/ActivityCampSection.tsx",
-                                            lineNumber: 432,
-                                            columnNumber: 56
+                                            lineNumber: 338,
+                                            columnNumber: 61
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/ActivityCampSection.tsx",
-                                    lineNumber: 432,
+                                    lineNumber: 338,
                                     columnNumber: 31
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/ActivityCampSection.tsx",
-                                lineNumber: 432,
+                                lineNumber: 338,
                                 columnNumber: 11
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/components/ActivityCampSection.tsx",
-                        lineNumber: 430,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        style: {
-                            maxWidth: 1200,
-                            margin: '60px auto 0',
-                            display: 'grid',
-                            gridTemplateColumns: '1fr 1fr',
-                            gap: 60,
-                            alignItems: 'center'
-                        },
-                        children: [
+                            }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                children: WHY_ITEMS.map((item, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(FadeIn, {
-                                        delay: i * 0.12,
-                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            style: {
-                                                display: 'flex',
-                                                gap: 20,
-                                                padding: '28px 0',
-                                                borderBottom: i < WHY_ITEMS.length - 1 ? '1px solid rgba(255,255,255,.04)' : 'none',
-                                                alignItems: 'flex-start'
-                                            },
-                                            children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                className: "g2w",
+                                style: {
+                                    marginTop: 36
+                                },
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        children: WHY_ITEMS.map((item, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(FadeIn, {
+                                                delay: i * 0.09,
+                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                     style: {
-                                                        fontFamily: 'Syne, sans-serif',
-                                                        fontWeight: 800,
-                                                        fontSize: 13,
-                                                        color: '#FFB800',
-                                                        minWidth: 28,
-                                                        marginTop: 2
+                                                        display: 'flex',
+                                                        gap: 16,
+                                                        padding: 'clamp(18px,3.5vw,26px) 0',
+                                                        borderBottom: i < WHY_ITEMS.length - 1 ? '1px solid rgba(255,255,255,.04)' : 'none',
+                                                        alignItems: 'flex-start'
                                                     },
-                                                    children: item.num
-                                                }, void 0, false, {
-                                                    fileName: "[project]/components/ActivityCampSection.tsx",
-                                                    lineNumber: 439,
-                                                    columnNumber: 19
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                     children: [
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                             style: {
-                                                                fontFamily: 'Syne, sans-serif',
+                                                                fontFamily: 'Syne,sans-serif',
                                                                 fontWeight: 800,
-                                                                fontSize: 18,
-                                                                color: '#EFF3FF',
-                                                                marginBottom: 8
+                                                                fontSize: 12,
+                                                                color: '#FFB800',
+                                                                minWidth: 24,
+                                                                marginTop: 2,
+                                                                flexShrink: 0
                                                             },
-                                                            children: item.title
+                                                            children: item.num
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/ActivityCampSection.tsx",
-                                                            lineNumber: 441,
+                                                            lineNumber: 344,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                            style: {
-                                                                fontFamily: 'DM Serif Display, serif',
-                                                                fontStyle: 'italic',
-                                                                fontSize: 15,
-                                                                lineHeight: 1.65,
-                                                                color: 'rgba(239,243,255,.45)'
-                                                            },
-                                                            children: item.body
-                                                        }, void 0, false, {
+                                                            children: [
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                                    style: {
+                                                                        fontFamily: 'Syne,sans-serif',
+                                                                        fontWeight: 800,
+                                                                        fontSize: 'clamp(14px,2.5vw,17px)',
+                                                                        color: '#EFF3FF',
+                                                                        marginBottom: 5
+                                                                    },
+                                                                    children: item.title
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/components/ActivityCampSection.tsx",
+                                                                    lineNumber: 346,
+                                                                    columnNumber: 23
+                                                                }, this),
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                                    style: {
+                                                                        fontFamily: 'DM Serif Display,serif',
+                                                                        fontStyle: 'italic',
+                                                                        fontSize: 'clamp(13px,1.8vw,15px)',
+                                                                        lineHeight: 1.65,
+                                                                        color: 'rgba(239,243,255,.45)'
+                                                                    },
+                                                                    children: item.body
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/components/ActivityCampSection.tsx",
+                                                                    lineNumber: 347,
+                                                                    columnNumber: 23
+                                                                }, this)
+                                                            ]
+                                                        }, void 0, true, {
                                                             fileName: "[project]/components/ActivityCampSection.tsx",
-                                                            lineNumber: 442,
+                                                            lineNumber: 345,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/ActivityCampSection.tsx",
-                                                    lineNumber: 440,
+                                                    lineNumber: 343,
                                                     columnNumber: 19
                                                 }, this)
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "[project]/components/ActivityCampSection.tsx",
-                                            lineNumber: 438,
-                                            columnNumber: 17
-                                        }, this)
-                                    }, i, false, {
+                                            }, i, false, {
+                                                fileName: "[project]/components/ActivityCampSection.tsx",
+                                                lineNumber: 342,
+                                                columnNumber: 17
+                                            }, this))
+                                    }, void 0, false, {
                                         fileName: "[project]/components/ActivityCampSection.tsx",
-                                        lineNumber: 437,
-                                        columnNumber: 15
-                                    }, this))
-                            }, void 0, false, {
-                                fileName: "[project]/components/ActivityCampSection.tsx",
-                                lineNumber: 435,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(FadeIn, {
-                                delay: 0.2,
-                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    style: {
-                                        width: '100%',
-                                        aspectRatio: '1/1',
-                                        background: 'rgba(3,6,15,.6)',
-                                        border: '1px solid rgba(255,255,255,.05)',
-                                        display: 'flex',
-                                        flexDirection: 'column',
-                                        alignItems: 'center',
-                                        justifyContent: 'center',
-                                        gap: 20,
-                                        position: 'relative',
-                                        overflow: 'hidden'
-                                    },
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            style: {
-                                                position: 'absolute',
-                                                inset: 0,
-                                                background: 'radial-gradient(circle at 50% 50%,rgba(255,184,0,.07) 0%,transparent 65%)'
-                                            }
+                                        lineNumber: 340,
+                                        columnNumber: 13
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "why-vis",
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(FadeIn, {
+                                            delay: 0.2,
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                style: {
+                                                    width: '100%',
+                                                    aspectRatio: '1/1',
+                                                    background: 'rgba(3,6,15,.6)',
+                                                    border: '1px solid rgba(255,255,255,.05)',
+                                                    display: 'flex',
+                                                    flexDirection: 'column',
+                                                    alignItems: 'center',
+                                                    justifyContent: 'center',
+                                                    gap: 18
+                                                },
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                        style: {
+                                                            position: 'absolute',
+                                                            inset: 0,
+                                                            background: 'radial-gradient(circle at 50% 50%,rgba(255,184,0,.07) 0%,transparent 65%)'
+                                                        }
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/components/ActivityCampSection.tsx",
+                                                        lineNumber: 355,
+                                                        columnNumber: 17
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                        style: {
+                                                            fontSize: 80
+                                                        },
+                                                        children: "🏛️"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/components/ActivityCampSection.tsx",
+                                                        lineNumber: 356,
+                                                        columnNumber: 17
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                        style: {
+                                                            border: '1px solid rgba(255,184,0,.3)',
+                                                            padding: '13px 22px',
+                                                            textAlign: 'center'
+                                                        },
+                                                        children: [
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                                style: {
+                                                                    fontFamily: 'Syne,sans-serif',
+                                                                    fontWeight: 800,
+                                                                    fontSize: 13,
+                                                                    color: '#FFB800',
+                                                                    letterSpacing: '0.1em',
+                                                                    marginBottom: 4
+                                                                },
+                                                                children: "GOVERNMENT CERTIFIED"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/components/ActivityCampSection.tsx",
+                                                                lineNumber: 358,
+                                                                columnNumber: 19
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                                style: {
+                                                                    fontSize: 8,
+                                                                    letterSpacing: '0.13em',
+                                                                    textTransform: 'uppercase',
+                                                                    color: '#2a3050'
+                                                                },
+                                                                children: "Kerala State Rutronix Approved"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/components/ActivityCampSection.tsx",
+                                                                lineNumber: 359,
+                                                                columnNumber: 19
+                                                            }, this)
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "[project]/components/ActivityCampSection.tsx",
+                                                        lineNumber: 357,
+                                                        columnNumber: 17
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                        style: {
+                                                            color: '#FFB800',
+                                                            fontSize: 15,
+                                                            letterSpacing: 4
+                                                        },
+                                                        children: "★★★★★"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/components/ActivityCampSection.tsx",
+                                                        lineNumber: 361,
+                                                        columnNumber: 17
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/components/ActivityCampSection.tsx",
+                                                lineNumber: 354,
+                                                columnNumber: 15
+                                            }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/ActivityCampSection.tsx",
-                                            lineNumber: 450,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                            style: {
-                                                fontSize: 96,
-                                                position: 'relative',
-                                                zIndex: 2
-                                            },
-                                            children: "🏛️"
-                                        }, void 0, false, {
-                                            fileName: "[project]/components/ActivityCampSection.tsx",
-                                            lineNumber: 451,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            style: {
-                                                border: '1px solid rgba(255,184,0,.3)',
-                                                padding: '16px 28px',
-                                                textAlign: 'center',
-                                                position: 'relative',
-                                                zIndex: 2
-                                            },
-                                            children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    style: {
-                                                        fontFamily: 'Syne, sans-serif',
-                                                        fontWeight: 800,
-                                                        fontSize: 14,
-                                                        color: '#FFB800',
-                                                        letterSpacing: '0.1em',
-                                                        marginBottom: 6
-                                                    },
-                                                    children: "GOVERNMENT CERTIFIED"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/components/ActivityCampSection.tsx",
-                                                    lineNumber: 453,
-                                                    columnNumber: 17
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    style: {
-                                                        fontSize: 9,
-                                                        letterSpacing: '0.15em',
-                                                        textTransform: 'uppercase',
-                                                        color: '#2a3050'
-                                                    },
-                                                    children: "Kerala State Rutronix Approved"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/components/ActivityCampSection.tsx",
-                                                    lineNumber: 454,
-                                                    columnNumber: 17
-                                                }, this)
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "[project]/components/ActivityCampSection.tsx",
-                                            lineNumber: 452,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            style: {
-                                                color: '#FFB800',
-                                                fontSize: 16,
-                                                letterSpacing: 4,
-                                                position: 'relative',
-                                                zIndex: 2
-                                            },
-                                            children: "★★★★★"
-                                        }, void 0, false, {
-                                            fileName: "[project]/components/ActivityCampSection.tsx",
-                                            lineNumber: 456,
-                                            columnNumber: 15
+                                            lineNumber: 353,
+                                            columnNumber: 38
                                         }, this)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "[project]/components/ActivityCampSection.tsx",
-                                    lineNumber: 449,
-                                    columnNumber: 13
-                                }, this)
-                            }, void 0, false, {
+                                    }, void 0, false, {
+                                        fileName: "[project]/components/ActivityCampSection.tsx",
+                                        lineNumber: 353,
+                                        columnNumber: 13
+                                    }, this)
+                                ]
+                            }, void 0, true, {
                                 fileName: "[project]/components/ActivityCampSection.tsx",
-                                lineNumber: 448,
+                                lineNumber: 339,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/ActivityCampSection.tsx",
-                        lineNumber: 434,
+                        lineNumber: 336,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/ActivityCampSection.tsx",
-                lineNumber: 428,
+                lineNumber: 334,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+                className: "sp",
                 style: {
-                    padding: '120px 56px',
                     background: '#080d18',
                     position: 'relative'
                 },
@@ -2890,192 +2730,194 @@ function ActivityCampSection() {
                         }
                     }, void 0, false, {
                         fileName: "[project]/components/ActivityCampSection.tsx",
-                        lineNumber: 464,
+                        lineNumber: 370,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        style: {
-                            maxWidth: 1200,
-                            margin: '0 auto'
-                        },
+                        className: "mx",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(FadeIn, {
-                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(SectionLabel, {
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                    className: "sl",
                                     children: "25-Day Journey"
                                 }, void 0, false, {
                                     fileName: "[project]/components/ActivityCampSection.tsx",
-                                    lineNumber: 466,
+                                    lineNumber: 372,
                                     columnNumber: 19
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/ActivityCampSection.tsx",
-                                lineNumber: 466,
+                                lineNumber: 372,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(FadeIn, {
                                 delay: 0.1,
-                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(SectionTitle, {
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                    className: "st",
                                     children: [
                                         "Camp ",
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(Gold, {
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                            style: {
+                                                color: '#FFB800'
+                                            },
                                             children: "Schedule"
                                         }, void 0, false, {
                                             fileName: "[project]/components/ActivityCampSection.tsx",
-                                            lineNumber: 467,
-                                            columnNumber: 50
+                                            lineNumber: 373,
+                                            columnNumber: 55
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/ActivityCampSection.tsx",
-                                    lineNumber: 467,
+                                    lineNumber: 373,
                                     columnNumber: 31
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/ActivityCampSection.tsx",
-                                lineNumber: 467,
-                                columnNumber: 11
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/components/ActivityCampSection.tsx",
-                        lineNumber: 465,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        style: {
-                            maxWidth: 900,
-                            margin: '60px auto 0',
-                            position: 'relative'
-                        },
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                style: {
-                                    position: 'absolute',
-                                    left: 28,
-                                    top: 0,
-                                    bottom: 0,
-                                    width: 1,
-                                    background: 'linear-gradient(to bottom,#FFB800,#00E5FF,#00FF9D,#B47FFF)',
-                                    opacity: .3
-                                }
-                            }, void 0, false, {
-                                fileName: "[project]/components/ActivityCampSection.tsx",
-                                lineNumber: 470,
+                                lineNumber: 373,
                                 columnNumber: 11
                             }, this),
-                            TIMELINE.map((item, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(FadeIn, {
-                                    delay: i * 0.16,
-                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                style: {
+                                    maxWidth: 820,
+                                    marginTop: 36,
+                                    position: 'relative'
+                                },
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         style: {
-                                            display: 'flex',
-                                            gap: 40,
-                                            marginBottom: 52,
-                                            position: 'relative'
-                                        },
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            position: 'absolute',
+                                            left: 26,
+                                            top: 0,
+                                            bottom: 0,
+                                            width: 1,
+                                            background: 'linear-gradient(to bottom,#FFB800,#00E5FF,#00FF9D,#B47FFF)',
+                                            opacity: .3
+                                        }
+                                    }, void 0, false, {
+                                        fileName: "[project]/components/ActivityCampSection.tsx",
+                                        lineNumber: 375,
+                                        columnNumber: 13
+                                    }, this),
+                                    TIMELINE.map((item, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(FadeIn, {
+                                            delay: i * 0.1,
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                 style: {
-                                                    width: 56,
-                                                    height: 56,
-                                                    background: 'rgba(3,6,15,.8)',
-                                                    border: '1px solid rgba(255,184,0,.3)',
                                                     display: 'flex',
-                                                    alignItems: 'center',
-                                                    justifyContent: 'center',
-                                                    fontSize: 22,
-                                                    flexShrink: 0,
-                                                    position: 'relative',
-                                                    zIndex: 2
-                                                },
-                                                children: item.dot
-                                            }, void 0, false, {
-                                                fileName: "[project]/components/ActivityCampSection.tsx",
-                                                lineNumber: 474,
-                                                columnNumber: 17
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                style: {
-                                                    paddingTop: 8
+                                                    gap: 'clamp(18px,3.5vw,36px)',
+                                                    marginBottom: 'clamp(28px,5vw,48px)',
+                                                    position: 'relative'
                                                 },
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                         style: {
-                                                            fontSize: 8,
-                                                            letterSpacing: '0.25em',
-                                                            textTransform: 'uppercase',
-                                                            color: '#FFB800',
-                                                            marginBottom: 8,
-                                                            fontFamily: 'JetBrains Mono, monospace'
+                                                            width: 'clamp(40px,7vw,52px)',
+                                                            height: 'clamp(40px,7vw,52px)',
+                                                            background: 'rgba(3,6,15,.8)',
+                                                            border: '1px solid rgba(255,184,0,.3)',
+                                                            display: 'flex',
+                                                            alignItems: 'center',
+                                                            justifyContent: 'center',
+                                                            fontSize: 'clamp(16px,3.5vw,20px)',
+                                                            flexShrink: 0,
+                                                            position: 'relative',
+                                                            zIndex: 2
                                                         },
-                                                        children: item.day
+                                                        children: item.dot
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/ActivityCampSection.tsx",
-                                                        lineNumber: 476,
+                                                        lineNumber: 379,
                                                         columnNumber: 19
                                                     }, this),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                         style: {
-                                                            fontFamily: 'Syne, sans-serif',
-                                                            fontWeight: 800,
-                                                            fontSize: 20,
-                                                            color: '#EFF3FF',
-                                                            marginBottom: 8
+                                                            paddingTop: 4,
+                                                            minWidth: 0
                                                         },
-                                                        children: item.title
-                                                    }, void 0, false, {
+                                                        children: [
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                                style: {
+                                                                    fontSize: 'clamp(6px,1.4vw,8px)',
+                                                                    letterSpacing: '0.2em',
+                                                                    textTransform: 'uppercase',
+                                                                    color: '#FFB800',
+                                                                    marginBottom: 5,
+                                                                    fontFamily: 'JetBrains Mono,monospace'
+                                                                },
+                                                                children: item.day
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/components/ActivityCampSection.tsx",
+                                                                lineNumber: 381,
+                                                                columnNumber: 21
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                                                style: {
+                                                                    fontFamily: 'Syne,sans-serif',
+                                                                    fontWeight: 800,
+                                                                    fontSize: 'clamp(15px,2.8vw,19px)',
+                                                                    color: '#EFF3FF',
+                                                                    marginBottom: 5
+                                                                },
+                                                                children: item.title
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/components/ActivityCampSection.tsx",
+                                                                lineNumber: 382,
+                                                                columnNumber: 21
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                                style: {
+                                                                    fontFamily: 'DM Serif Display,serif',
+                                                                    fontStyle: 'italic',
+                                                                    fontSize: 'clamp(12px,1.8vw,14px)',
+                                                                    lineHeight: 1.65,
+                                                                    color: 'rgba(239,243,255,.45)'
+                                                                },
+                                                                children: item.body
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/components/ActivityCampSection.tsx",
+                                                                lineNumber: 383,
+                                                                columnNumber: 21
+                                                            }, this)
+                                                        ]
+                                                    }, void 0, true, {
                                                         fileName: "[project]/components/ActivityCampSection.tsx",
-                                                        lineNumber: 477,
-                                                        columnNumber: 19
-                                                    }, this),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                        style: {
-                                                            fontFamily: 'DM Serif Display, serif',
-                                                            fontStyle: 'italic',
-                                                            fontSize: 15,
-                                                            lineHeight: 1.65,
-                                                            color: 'rgba(239,243,255,.45)'
-                                                        },
-                                                        children: item.body
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/components/ActivityCampSection.tsx",
-                                                        lineNumber: 478,
+                                                        lineNumber: 380,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/ActivityCampSection.tsx",
-                                                lineNumber: 475,
+                                                lineNumber: 378,
                                                 columnNumber: 17
                                             }, this)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/components/ActivityCampSection.tsx",
-                                        lineNumber: 473,
-                                        columnNumber: 15
-                                    }, this)
-                                }, i, false, {
-                                    fileName: "[project]/components/ActivityCampSection.tsx",
-                                    lineNumber: 472,
-                                    columnNumber: 13
-                                }, this))
+                                        }, i, false, {
+                                            fileName: "[project]/components/ActivityCampSection.tsx",
+                                            lineNumber: 377,
+                                            columnNumber: 15
+                                        }, this))
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/components/ActivityCampSection.tsx",
+                                lineNumber: 374,
+                                columnNumber: 11
+                            }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/ActivityCampSection.tsx",
-                        lineNumber: 469,
+                        lineNumber: 371,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/ActivityCampSection.tsx",
-                lineNumber: 463,
+                lineNumber: 369,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+                className: "sp",
                 style: {
-                    padding: '120px 56px',
                     background: '#000507',
-                    position: 'relative',
-                    overflow: 'hidden'
+                    position: 'relative'
                 },
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3089,193 +2931,192 @@ function ActivityCampSection() {
                         }
                     }, void 0, false, {
                         fileName: "[project]/components/ActivityCampSection.tsx",
-                        lineNumber: 488,
+                        lineNumber: 394,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        style: {
-                            maxWidth: 1200,
-                            margin: '0 auto'
-                        },
+                        className: "mx",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(FadeIn, {
-                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(SectionLabel, {
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                    className: "sl",
                                     children: "Student Success"
                                 }, void 0, false, {
                                     fileName: "[project]/components/ActivityCampSection.tsx",
-                                    lineNumber: 490,
+                                    lineNumber: 396,
                                     columnNumber: 19
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/ActivityCampSection.tsx",
-                                lineNumber: 490,
+                                lineNumber: 396,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(FadeIn, {
                                 delay: 0.1,
-                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(SectionTitle, {
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                    className: "st",
                                     children: [
                                         "What Our ",
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(Gold, {
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                            style: {
+                                                color: '#FFB800'
+                                            },
                                             children: "Students Say"
                                         }, void 0, false, {
                                             fileName: "[project]/components/ActivityCampSection.tsx",
-                                            lineNumber: 491,
-                                            columnNumber: 54
+                                            lineNumber: 397,
+                                            columnNumber: 59
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/ActivityCampSection.tsx",
-                                    lineNumber: 491,
+                                    lineNumber: 397,
                                     columnNumber: 31
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/ActivityCampSection.tsx",
-                                lineNumber: 491,
+                                lineNumber: 397,
                                 columnNumber: 11
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/components/ActivityCampSection.tsx",
-                        lineNumber: 489,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        style: {
-                            maxWidth: 1200,
-                            margin: '60px auto 0',
-                            display: 'grid',
-                            gridTemplateColumns: 'repeat(3,1fr)',
-                            gap: 20
-                        },
-                        children: TESTIMONIALS.map((t, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(FadeIn, {
-                                delay: i * 0.15,
-                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    style: {
-                                        padding: '40px 32px',
-                                        background: 'rgba(3,6,15,.6)',
-                                        border: '1px solid rgba(255,255,255,.05)'
-                                    },
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "g3w",
+                                style: {
+                                    marginTop: 36
+                                },
+                                children: TESTIMONIALS.map((t, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(FadeIn, {
+                                        delay: i * 0.1,
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             style: {
-                                                color: '#FFB800',
-                                                fontSize: 12,
-                                                letterSpacing: 3,
-                                                marginBottom: 18
-                                            },
-                                            children: '★'.repeat(t.stars)
-                                        }, void 0, false, {
-                                            fileName: "[project]/components/ActivityCampSection.tsx",
-                                            lineNumber: 497,
-                                            columnNumber: 17
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                            style: {
-                                                fontFamily: 'DM Serif Display, serif',
-                                                fontStyle: 'italic',
-                                                fontSize: 16,
-                                                lineHeight: 1.75,
-                                                color: 'rgba(239,243,255,.6)',
-                                                marginBottom: 24
-                                            },
-                                            children: t.quote
-                                        }, void 0, false, {
-                                            fileName: "[project]/components/ActivityCampSection.tsx",
-                                            lineNumber: 498,
-                                            columnNumber: 17
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            style: {
-                                                display: 'flex',
-                                                alignItems: 'center',
-                                                gap: 14
+                                                padding: 'clamp(24px,4.5vw,38px) clamp(18px,3.5vw,30px)',
+                                                background: 'rgba(3,6,15,.6)',
+                                                border: '1px solid rgba(255,255,255,.05)'
                                             },
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                     style: {
-                                                        width: 40,
-                                                        height: 40,
-                                                        background: 'rgba(255,184,0,.12)',
-                                                        border: '1px solid rgba(255,184,0,.25)',
-                                                        display: 'flex',
-                                                        alignItems: 'center',
-                                                        justifyContent: 'center',
-                                                        fontSize: 18,
-                                                        flexShrink: 0
+                                                        color: '#FFB800',
+                                                        fontSize: 13,
+                                                        letterSpacing: 3,
+                                                        marginBottom: 14
                                                     },
-                                                    children: t.avatar
+                                                    children: '★'.repeat(t.stars)
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/ActivityCampSection.tsx",
-                                                    lineNumber: 500,
+                                                    lineNumber: 402,
+                                                    columnNumber: 19
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                    style: {
+                                                        fontFamily: 'DM Serif Display,serif',
+                                                        fontStyle: 'italic',
+                                                        fontSize: 'clamp(13px,2vw,15px)',
+                                                        lineHeight: 1.75,
+                                                        color: 'rgba(239,243,255,.6)',
+                                                        marginBottom: 18
+                                                    },
+                                                    children: t.quote
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/ActivityCampSection.tsx",
+                                                    lineNumber: 403,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    style: {
+                                                        display: 'flex',
+                                                        alignItems: 'center',
+                                                        gap: 11
+                                                    },
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                             style: {
-                                                                fontFamily: 'Syne, sans-serif',
-                                                                fontWeight: 700,
-                                                                fontSize: 12,
-                                                                color: '#EFF3FF'
+                                                                width: 36,
+                                                                height: 36,
+                                                                background: 'rgba(255,184,0,.12)',
+                                                                border: '1px solid rgba(255,184,0,.25)',
+                                                                display: 'flex',
+                                                                alignItems: 'center',
+                                                                justifyContent: 'center',
+                                                                fontSize: 16,
+                                                                flexShrink: 0
                                                             },
-                                                            children: t.name
+                                                            children: t.avatar
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/ActivityCampSection.tsx",
-                                                            lineNumber: 502,
+                                                            lineNumber: 405,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                            style: {
-                                                                fontSize: 8,
-                                                                letterSpacing: '0.12em',
-                                                                textTransform: 'uppercase',
-                                                                color: '#2a3050',
-                                                                fontFamily: 'JetBrains Mono, monospace'
-                                                            },
-                                                            children: t.role
-                                                        }, void 0, false, {
+                                                            children: [
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                                    style: {
+                                                                        fontFamily: 'Syne,sans-serif',
+                                                                        fontWeight: 700,
+                                                                        fontSize: 12,
+                                                                        color: '#EFF3FF'
+                                                                    },
+                                                                    children: t.name
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/components/ActivityCampSection.tsx",
+                                                                    lineNumber: 407,
+                                                                    columnNumber: 23
+                                                                }, this),
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                                    style: {
+                                                                        fontSize: 'clamp(6px,1.3vw,8px)',
+                                                                        letterSpacing: '0.1em',
+                                                                        textTransform: 'uppercase',
+                                                                        color: '#2a3050',
+                                                                        fontFamily: 'JetBrains Mono,monospace'
+                                                                    },
+                                                                    children: t.role
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/components/ActivityCampSection.tsx",
+                                                                    lineNumber: 408,
+                                                                    columnNumber: 23
+                                                                }, this)
+                                                            ]
+                                                        }, void 0, true, {
                                                             fileName: "[project]/components/ActivityCampSection.tsx",
-                                                            lineNumber: 503,
+                                                            lineNumber: 406,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/ActivityCampSection.tsx",
-                                                    lineNumber: 501,
+                                                    lineNumber: 404,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/ActivityCampSection.tsx",
-                                            lineNumber: 499,
+                                            lineNumber: 401,
                                             columnNumber: 17
                                         }, this)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "[project]/components/ActivityCampSection.tsx",
-                                    lineNumber: 496,
-                                    columnNumber: 15
-                                }, this)
-                            }, i, false, {
+                                    }, i, false, {
+                                        fileName: "[project]/components/ActivityCampSection.tsx",
+                                        lineNumber: 400,
+                                        columnNumber: 15
+                                    }, this))
+                            }, void 0, false, {
                                 fileName: "[project]/components/ActivityCampSection.tsx",
-                                lineNumber: 495,
-                                columnNumber: 13
-                            }, this))
-                    }, void 0, false, {
+                                lineNumber: 398,
+                                columnNumber: 11
+                            }, this)
+                        ]
+                    }, void 0, true, {
                         fileName: "[project]/components/ActivityCampSection.tsx",
-                        lineNumber: 493,
+                        lineNumber: 395,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/ActivityCampSection.tsx",
-                lineNumber: 487,
+                lineNumber: 393,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+                className: "sp",
                 style: {
-                    padding: '120px 56px',
                     background: '#080d18',
                     position: 'relative'
                 },
@@ -3291,92 +3132,94 @@ function ActivityCampSection() {
                         }
                     }, void 0, false, {
                         fileName: "[project]/components/ActivityCampSection.tsx",
-                        lineNumber: 514,
+                        lineNumber: 420,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        style: {
-                            maxWidth: 1200,
-                            margin: '0 auto'
-                        },
+                        className: "mx",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(FadeIn, {
-                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(SectionLabel, {
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                    className: "sl",
                                     children: "FAQs"
                                 }, void 0, false, {
                                     fileName: "[project]/components/ActivityCampSection.tsx",
-                                    lineNumber: 516,
+                                    lineNumber: 422,
                                     columnNumber: 19
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/ActivityCampSection.tsx",
-                                lineNumber: 516,
+                                lineNumber: 422,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(FadeIn, {
                                 delay: 0.1,
-                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(SectionTitle, {
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                    className: "st",
                                     children: [
                                         "Common ",
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(Gold, {
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                            style: {
+                                                color: '#FFB800'
+                                            },
                                             children: "Questions"
                                         }, void 0, false, {
                                             fileName: "[project]/components/ActivityCampSection.tsx",
-                                            lineNumber: 517,
-                                            columnNumber: 52
+                                            lineNumber: 423,
+                                            columnNumber: 57
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/ActivityCampSection.tsx",
-                                    lineNumber: 517,
+                                    lineNumber: 423,
                                     columnNumber: 31
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/ActivityCampSection.tsx",
-                                lineNumber: 517,
+                                lineNumber: 423,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                style: {
+                                    maxWidth: 740,
+                                    marginTop: 36
+                                },
+                                children: FAQS.map((faq, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(FadeIn, {
+                                        delay: i * 0.05,
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(FaqItem, {
+                                            q: faq.q,
+                                            a: faq.a
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/ActivityCampSection.tsx",
+                                            lineNumber: 425,
+                                            columnNumber: 68
+                                        }, this)
+                                    }, i, false, {
+                                        fileName: "[project]/components/ActivityCampSection.tsx",
+                                        lineNumber: 425,
+                                        columnNumber: 35
+                                    }, this))
+                            }, void 0, false, {
+                                fileName: "[project]/components/ActivityCampSection.tsx",
+                                lineNumber: 424,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/ActivityCampSection.tsx",
-                        lineNumber: 515,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        style: {
-                            maxWidth: 800,
-                            margin: '60px auto 0'
-                        },
-                        children: FAQS.map((faq, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(FadeIn, {
-                                delay: i * 0.08,
-                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(FaqItem, {
-                                    q: faq.q,
-                                    a: faq.a
-                                }, void 0, false, {
-                                    fileName: "[project]/components/ActivityCampSection.tsx",
-                                    lineNumber: 522,
-                                    columnNumber: 15
-                                }, this)
-                            }, i, false, {
-                                fileName: "[project]/components/ActivityCampSection.tsx",
-                                lineNumber: 521,
-                                columnNumber: 13
-                            }, this))
-                    }, void 0, false, {
-                        fileName: "[project]/components/ActivityCampSection.tsx",
-                        lineNumber: 519,
+                        lineNumber: 421,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/ActivityCampSection.tsx",
-                lineNumber: 513,
+                lineNumber: 419,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
                 id: "ac-register",
+                className: "sp",
                 style: {
-                    padding: '120px 56px',
                     background: '#000507',
                     position: 'relative',
                     overflow: 'hidden'
@@ -3393,727 +3236,685 @@ function ActivityCampSection() {
                         }
                     }, void 0, false, {
                         fileName: "[project]/components/ActivityCampSection.tsx",
-                        lineNumber: 530,
+                        lineNumber: 432,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         style: {
                             position: 'absolute',
                             inset: 0,
-                            background: 'radial-gradient(ellipse at 50% 60%,rgba(0,229,255,.06) 0%,transparent 65%)'
+                            background: 'radial-gradient(ellipse at 50% 60%,rgba(0,229,255,.05) 0%,transparent 65%)'
                         }
                     }, void 0, false, {
                         fileName: "[project]/components/ActivityCampSection.tsx",
-                        lineNumber: 531,
+                        lineNumber: 433,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "g2c mx",
                         style: {
-                            maxWidth: 1100,
-                            margin: '0 auto',
-                            display: 'grid',
-                            gridTemplateColumns: '1fr 1fr',
-                            gap: 80,
-                            alignItems: 'start',
                             position: 'relative',
                             zIndex: 2
                         },
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(FadeIn, {
                                 children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(SectionLabel, {
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                        className: "sl",
                                         children: "Register Now"
                                     }, void 0, false, {
                                         fileName: "[project]/components/ActivityCampSection.tsx",
-                                        lineNumber: 535,
+                                        lineNumber: 436,
                                         columnNumber: 13
                                     }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(SectionTitle, {
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                        className: "st",
                                         children: [
                                             "Apply for",
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                 fileName: "[project]/components/ActivityCampSection.tsx",
-                                                lineNumber: 536,
-                                                columnNumber: 36
+                                                lineNumber: 437,
+                                                columnNumber: 41
                                             }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(Gold, {
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                style: {
+                                                    color: '#FFB800'
+                                                },
                                                 children: "2026 Batch"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/ActivityCampSection.tsx",
-                                                lineNumber: 536,
-                                                columnNumber: 41
+                                                lineNumber: 437,
+                                                columnNumber: 47
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/ActivityCampSection.tsx",
-                                        lineNumber: 536,
+                                        lineNumber: 437,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                        className: "sb",
                                         style: {
-                                            fontFamily: 'DM Serif Display, serif',
-                                            fontStyle: 'italic',
-                                            fontSize: 18,
-                                            lineHeight: 1.7,
-                                            color: 'rgba(239,243,255,.5)'
+                                            marginBottom: 28
                                         },
                                         children: "Seats are limited. Fill the form and our team will call you within 24 hours to confirm your spot."
                                     }, void 0, false, {
                                         fileName: "[project]/components/ActivityCampSection.tsx",
-                                        lineNumber: 537,
+                                        lineNumber: 438,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "g2",
                                         style: {
-                                            marginTop: 40
+                                            marginBottom: 14
                                         },
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                style: {
-                                                    display: 'grid',
-                                                    gridTemplateColumns: '1fr 1fr',
-                                                    gap: 16,
-                                                    marginBottom: 20
-                                                },
-                                                children: [
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                        children: [
-                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
-                                                                style: {
-                                                                    fontSize: 8,
-                                                                    letterSpacing: '0.22em',
-                                                                    textTransform: 'uppercase',
-                                                                    color: '#2a3050',
-                                                                    display: 'block',
-                                                                    marginBottom: 8,
-                                                                    fontFamily: 'JetBrains Mono, monospace'
-                                                                },
-                                                                children: "Student Name *"
-                                                            }, void 0, false, {
-                                                                fileName: "[project]/components/ActivityCampSection.tsx",
-                                                                lineNumber: 541,
-                                                                columnNumber: 19
-                                                            }, this),
-                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
-                                                                style: inputStyle,
-                                                                type: "text",
-                                                                placeholder: "Full name",
-                                                                value: formData.name,
-                                                                onChange: (e)=>setFormData((p)=>({
-                                                                            ...p,
-                                                                            name: e.target.value
-                                                                        }))
-                                                            }, void 0, false, {
-                                                                fileName: "[project]/components/ActivityCampSection.tsx",
-                                                                lineNumber: 542,
-                                                                columnNumber: 19
-                                                            }, this)
-                                                        ]
-                                                    }, void 0, true, {
-                                                        fileName: "[project]/components/ActivityCampSection.tsx",
-                                                        lineNumber: 540,
-                                                        columnNumber: 17
-                                                    }, this),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                        children: [
-                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
-                                                                style: {
-                                                                    fontSize: 8,
-                                                                    letterSpacing: '0.22em',
-                                                                    textTransform: 'uppercase',
-                                                                    color: '#2a3050',
-                                                                    display: 'block',
-                                                                    marginBottom: 8,
-                                                                    fontFamily: 'JetBrains Mono, monospace'
-                                                                },
-                                                                children: "WhatsApp Number *"
-                                                            }, void 0, false, {
-                                                                fileName: "[project]/components/ActivityCampSection.tsx",
-                                                                lineNumber: 545,
-                                                                columnNumber: 19
-                                                            }, this),
-                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
-                                                                style: inputStyle,
-                                                                type: "tel",
-                                                                placeholder: "+91 XXXXX XXXXX",
-                                                                value: formData.phone,
-                                                                onChange: (e)=>setFormData((p)=>({
-                                                                            ...p,
-                                                                            phone: e.target.value
-                                                                        }))
-                                                            }, void 0, false, {
-                                                                fileName: "[project]/components/ActivityCampSection.tsx",
-                                                                lineNumber: 546,
-                                                                columnNumber: 19
-                                                            }, this)
-                                                        ]
-                                                    }, void 0, true, {
-                                                        fileName: "[project]/components/ActivityCampSection.tsx",
-                                                        lineNumber: 544,
-                                                        columnNumber: 17
-                                                    }, this)
-                                                ]
-                                            }, void 0, true, {
-                                                fileName: "[project]/components/ActivityCampSection.tsx",
-                                                lineNumber: 539,
-                                                columnNumber: 15
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                style: {
-                                                    display: 'grid',
-                                                    gridTemplateColumns: '1fr 1fr',
-                                                    gap: 16,
-                                                    marginBottom: 20
-                                                },
-                                                children: [
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                        children: [
-                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
-                                                                style: {
-                                                                    fontSize: 8,
-                                                                    letterSpacing: '0.22em',
-                                                                    textTransform: 'uppercase',
-                                                                    color: '#2a3050',
-                                                                    display: 'block',
-                                                                    marginBottom: 8,
-                                                                    fontFamily: 'JetBrains Mono, monospace'
-                                                                },
-                                                                children: "Class / Course Year"
-                                                            }, void 0, false, {
-                                                                fileName: "[project]/components/ActivityCampSection.tsx",
-                                                                lineNumber: 551,
-                                                                columnNumber: 19
-                                                            }, this),
-                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
-                                                                style: inputStyle,
-                                                                type: "text",
-                                                                placeholder: "e.g. Class 10 / B.Com 2nd year",
-                                                                value: formData.studentClass,
-                                                                onChange: (e)=>setFormData((p)=>({
-                                                                            ...p,
-                                                                            studentClass: e.target.value
-                                                                        }))
-                                                            }, void 0, false, {
-                                                                fileName: "[project]/components/ActivityCampSection.tsx",
-                                                                lineNumber: 552,
-                                                                columnNumber: 19
-                                                            }, this)
-                                                        ]
-                                                    }, void 0, true, {
-                                                        fileName: "[project]/components/ActivityCampSection.tsx",
-                                                        lineNumber: 550,
-                                                        columnNumber: 17
-                                                    }, this),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                        children: [
-                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
-                                                                style: {
-                                                                    fontSize: 8,
-                                                                    letterSpacing: '0.22em',
-                                                                    textTransform: 'uppercase',
-                                                                    color: '#2a3050',
-                                                                    display: 'block',
-                                                                    marginBottom: 8,
-                                                                    fontFamily: 'JetBrains Mono, monospace'
-                                                                },
-                                                                children: "Preferred AI Course *"
-                                                            }, void 0, false, {
-                                                                fileName: "[project]/components/ActivityCampSection.tsx",
-                                                                lineNumber: 555,
-                                                                columnNumber: 19
-                                                            }, this),
-                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("select", {
-                                                                style: {
-                                                                    ...inputStyle,
-                                                                    appearance: 'none'
-                                                                },
-                                                                value: formData.course,
-                                                                onChange: (e)=>setFormData((p)=>({
-                                                                            ...p,
-                                                                            course: e.target.value
-                                                                        })),
-                                                                children: [
-                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
-                                                                        value: "",
-                                                                        children: "Select a course"
-                                                                    }, void 0, false, {
-                                                                        fileName: "[project]/components/ActivityCampSection.tsx",
-                                                                        lineNumber: 557,
-                                                                        columnNumber: 21
-                                                                    }, this),
-                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
-                                                                        children: "AI Digital Marketing"
-                                                                    }, void 0, false, {
-                                                                        fileName: "[project]/components/ActivityCampSection.tsx",
-                                                                        lineNumber: 558,
-                                                                        columnNumber: 21
-                                                                    }, this),
-                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
-                                                                        children: "AI Office Suite"
-                                                                    }, void 0, false, {
-                                                                        fileName: "[project]/components/ActivityCampSection.tsx",
-                                                                        lineNumber: 559,
-                                                                        columnNumber: 21
-                                                                    }, this),
-                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
-                                                                        children: "AI Web App Development"
-                                                                    }, void 0, false, {
-                                                                        fileName: "[project]/components/ActivityCampSection.tsx",
-                                                                        lineNumber: 560,
-                                                                        columnNumber: 21
-                                                                    }, this),
-                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
-                                                                        children: "Junior YouTuber"
-                                                                    }, void 0, false, {
-                                                                        fileName: "[project]/components/ActivityCampSection.tsx",
-                                                                        lineNumber: 561,
-                                                                        columnNumber: 21
-                                                                    }, this),
-                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
-                                                                        children: "Junior AI Prompt Engineer"
-                                                                    }, void 0, false, {
-                                                                        fileName: "[project]/components/ActivityCampSection.tsx",
-                                                                        lineNumber: 562,
-                                                                        columnNumber: 21
-                                                                    }, this),
-                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
-                                                                        children: "AI Designer"
-                                                                    }, void 0, false, {
-                                                                        fileName: "[project]/components/ActivityCampSection.tsx",
-                                                                        lineNumber: 563,
-                                                                        columnNumber: 21
-                                                                    }, this),
-                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
-                                                                        children: "Junior Python Programmer"
-                                                                    }, void 0, false, {
-                                                                        fileName: "[project]/components/ActivityCampSection.tsx",
-                                                                        lineNumber: 564,
-                                                                        columnNumber: 21
-                                                                    }, this),
-                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
-                                                                        children: "Junior Game Developer"
-                                                                    }, void 0, false, {
-                                                                        fileName: "[project]/components/ActivityCampSection.tsx",
-                                                                        lineNumber: 565,
-                                                                        columnNumber: 21
-                                                                    }, this),
-                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
-                                                                        children: "Generative AI & ChatGPT"
-                                                                    }, void 0, false, {
-                                                                        fileName: "[project]/components/ActivityCampSection.tsx",
-                                                                        lineNumber: 566,
-                                                                        columnNumber: 21
-                                                                    }, this),
-                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
-                                                                        children: "Not decided yet — please advise"
-                                                                    }, void 0, false, {
-                                                                        fileName: "[project]/components/ActivityCampSection.tsx",
-                                                                        lineNumber: 567,
-                                                                        columnNumber: 21
-                                                                    }, this)
-                                                                ]
-                                                            }, void 0, true, {
-                                                                fileName: "[project]/components/ActivityCampSection.tsx",
-                                                                lineNumber: 556,
-                                                                columnNumber: 19
-                                                            }, this)
-                                                        ]
-                                                    }, void 0, true, {
-                                                        fileName: "[project]/components/ActivityCampSection.tsx",
-                                                        lineNumber: 554,
-                                                        columnNumber: 17
-                                                    }, this)
-                                                ]
-                                            }, void 0, true, {
-                                                fileName: "[project]/components/ActivityCampSection.tsx",
-                                                lineNumber: 549,
-                                                columnNumber: 15
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                style: {
-                                                    marginBottom: 20
-                                                },
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
                                                         style: {
-                                                            fontSize: 8,
-                                                            letterSpacing: '0.22em',
+                                                            fontSize: 'clamp(7px,1.4vw,8px)',
+                                                            letterSpacing: '0.18em',
                                                             textTransform: 'uppercase',
                                                             color: '#2a3050',
                                                             display: 'block',
-                                                            marginBottom: 8,
-                                                            fontFamily: 'JetBrains Mono, monospace'
+                                                            marginBottom: 6,
+                                                            fontFamily: 'JetBrains Mono,monospace'
                                                         },
-                                                        children: "Your Location / Area"
+                                                        children: "Student Name *"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/ActivityCampSection.tsx",
-                                                        lineNumber: 572,
+                                                        lineNumber: 441,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
-                                                        style: inputStyle,
-                                                        type: "text",
-                                                        placeholder: "e.g. Neyyattinkara, Attingal, Trivandrum",
-                                                        value: formData.location,
-                                                        onChange: (e)=>setFormData((p)=>({
+                                                        style: inp,
+                                                        placeholder: "Full name",
+                                                        value: form.name,
+                                                        onChange: (e)=>setForm((p)=>({
                                                                     ...p,
-                                                                    location: e.target.value
+                                                                    name: e.target.value
                                                                 }))
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/ActivityCampSection.tsx",
-                                                        lineNumber: 573,
+                                                        lineNumber: 442,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/ActivityCampSection.tsx",
-                                                lineNumber: 571,
+                                                lineNumber: 440,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                style: {
-                                                    marginBottom: 20
-                                                },
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
                                                         style: {
-                                                            fontSize: 8,
-                                                            letterSpacing: '0.22em',
+                                                            fontSize: 'clamp(7px,1.4vw,8px)',
+                                                            letterSpacing: '0.18em',
                                                             textTransform: 'uppercase',
                                                             color: '#2a3050',
                                                             display: 'block',
-                                                            marginBottom: 8,
-                                                            fontFamily: 'JetBrains Mono, monospace'
+                                                            marginBottom: 6,
+                                                            fontFamily: 'JetBrains Mono,monospace'
                                                         },
-                                                        children: "Any Questions? (Optional)"
+                                                        children: "WhatsApp Number *"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/ActivityCampSection.tsx",
-                                                        lineNumber: 576,
+                                                        lineNumber: 445,
                                                         columnNumber: 17
                                                     }, this),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("textarea", {
-                                                        style: {
-                                                            ...inputStyle,
-                                                            resize: 'vertical',
-                                                            minHeight: 88
-                                                        },
-                                                        placeholder: "Fee details, batch timings, course doubts...",
-                                                        value: formData.message,
-                                                        onChange: (e)=>setFormData((p)=>({
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
+                                                        style: inp,
+                                                        type: "tel",
+                                                        placeholder: "+91 XXXXX XXXXX",
+                                                        value: form.phone,
+                                                        onChange: (e)=>setForm((p)=>({
                                                                     ...p,
-                                                                    message: e.target.value
+                                                                    phone: e.target.value
                                                                 }))
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/ActivityCampSection.tsx",
-                                                        lineNumber: 577,
+                                                        lineNumber: 446,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/ActivityCampSection.tsx",
-                                                lineNumber: 575,
-                                                columnNumber: 15
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                                onClick: handleSubmit,
-                                                disabled: sending,
-                                                style: {
-                                                    width: '100%',
-                                                    background: '#FFB800',
-                                                    color: '#000507',
-                                                    fontFamily: 'JetBrains Mono, monospace',
-                                                    fontSize: 11,
-                                                    fontWeight: 700,
-                                                    letterSpacing: '0.2em',
-                                                    textTransform: 'uppercase',
-                                                    padding: 18,
-                                                    border: 'none',
-                                                    cursor: 'pointer',
-                                                    marginTop: 8,
-                                                    transition: 'all 0.3s'
-                                                },
-                                                children: sending ? 'Sending...' : 'Reserve My Seat →'
-                                            }, void 0, false, {
-                                                fileName: "[project]/components/ActivityCampSection.tsx",
-                                                lineNumber: 579,
-                                                columnNumber: 15
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                style: {
-                                                    fontSize: 8,
-                                                    letterSpacing: '0.12em',
-                                                    textTransform: 'uppercase',
-                                                    color: '#2a3050',
-                                                    marginTop: 12,
-                                                    textAlign: 'center'
-                                                },
-                                                children: "🔒 Your data is safe. We will never share your information."
-                                            }, void 0, false, {
-                                                fileName: "[project]/components/ActivityCampSection.tsx",
-                                                lineNumber: 583,
+                                                lineNumber: 444,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/ActivityCampSection.tsx",
-                                        lineNumber: 538,
+                                        lineNumber: 439,
+                                        columnNumber: 13
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "g2",
+                                        style: {
+                                            marginBottom: 14
+                                        },
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
+                                                        style: {
+                                                            fontSize: 'clamp(7px,1.4vw,8px)',
+                                                            letterSpacing: '0.18em',
+                                                            textTransform: 'uppercase',
+                                                            color: '#2a3050',
+                                                            display: 'block',
+                                                            marginBottom: 6,
+                                                            fontFamily: 'JetBrains Mono,monospace'
+                                                        },
+                                                        children: "Class / Course Year"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/components/ActivityCampSection.tsx",
+                                                        lineNumber: 451,
+                                                        columnNumber: 17
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
+                                                        style: inp,
+                                                        placeholder: "e.g. Class 10 / B.Com 2nd yr",
+                                                        value: form.studentClass,
+                                                        onChange: (e)=>setForm((p)=>({
+                                                                    ...p,
+                                                                    studentClass: e.target.value
+                                                                }))
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/components/ActivityCampSection.tsx",
+                                                        lineNumber: 452,
+                                                        columnNumber: 17
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/components/ActivityCampSection.tsx",
+                                                lineNumber: 450,
+                                                columnNumber: 15
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
+                                                        style: {
+                                                            fontSize: 'clamp(7px,1.4vw,8px)',
+                                                            letterSpacing: '0.18em',
+                                                            textTransform: 'uppercase',
+                                                            color: '#2a3050',
+                                                            display: 'block',
+                                                            marginBottom: 6,
+                                                            fontFamily: 'JetBrains Mono,monospace'
+                                                        },
+                                                        children: "Preferred AI Course *"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/components/ActivityCampSection.tsx",
+                                                        lineNumber: 455,
+                                                        columnNumber: 17
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("select", {
+                                                        style: {
+                                                            ...inp,
+                                                            appearance: 'none'
+                                                        },
+                                                        value: form.course,
+                                                        onChange: (e)=>setForm((p)=>({
+                                                                    ...p,
+                                                                    course: e.target.value
+                                                                })),
+                                                        children: [
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
+                                                                value: "",
+                                                                children: "Select a course"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/components/ActivityCampSection.tsx",
+                                                                lineNumber: 457,
+                                                                columnNumber: 19
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
+                                                                children: "AI Digital Marketing"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/components/ActivityCampSection.tsx",
+                                                                lineNumber: 458,
+                                                                columnNumber: 19
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
+                                                                children: "AI Office Suite"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/components/ActivityCampSection.tsx",
+                                                                lineNumber: 459,
+                                                                columnNumber: 19
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
+                                                                children: "AI Web App Development"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/components/ActivityCampSection.tsx",
+                                                                lineNumber: 460,
+                                                                columnNumber: 19
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
+                                                                children: "Junior YouTuber"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/components/ActivityCampSection.tsx",
+                                                                lineNumber: 461,
+                                                                columnNumber: 19
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
+                                                                children: "Junior AI Prompt Engineer"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/components/ActivityCampSection.tsx",
+                                                                lineNumber: 462,
+                                                                columnNumber: 19
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
+                                                                children: "AI Designer"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/components/ActivityCampSection.tsx",
+                                                                lineNumber: 463,
+                                                                columnNumber: 19
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
+                                                                children: "Junior Python Programmer"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/components/ActivityCampSection.tsx",
+                                                                lineNumber: 464,
+                                                                columnNumber: 19
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
+                                                                children: "Junior Game Developer"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/components/ActivityCampSection.tsx",
+                                                                lineNumber: 465,
+                                                                columnNumber: 19
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
+                                                                children: "Generative AI & ChatGPT"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/components/ActivityCampSection.tsx",
+                                                                lineNumber: 466,
+                                                                columnNumber: 19
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
+                                                                children: "Not decided yet — please advise"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/components/ActivityCampSection.tsx",
+                                                                lineNumber: 467,
+                                                                columnNumber: 19
+                                                            }, this)
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "[project]/components/ActivityCampSection.tsx",
+                                                        lineNumber: 456,
+                                                        columnNumber: 17
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/components/ActivityCampSection.tsx",
+                                                lineNumber: 454,
+                                                columnNumber: 15
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/components/ActivityCampSection.tsx",
+                                        lineNumber: 449,
+                                        columnNumber: 13
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        style: {
+                                            marginBottom: 14
+                                        },
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
+                                                style: {
+                                                    fontSize: 'clamp(7px,1.4vw,8px)',
+                                                    letterSpacing: '0.18em',
+                                                    textTransform: 'uppercase',
+                                                    color: '#2a3050',
+                                                    display: 'block',
+                                                    marginBottom: 6,
+                                                    fontFamily: 'JetBrains Mono,monospace'
+                                                },
+                                                children: "Your Location / Area"
+                                            }, void 0, false, {
+                                                fileName: "[project]/components/ActivityCampSection.tsx",
+                                                lineNumber: 472,
+                                                columnNumber: 15
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
+                                                style: inp,
+                                                placeholder: "e.g. Neyyattinkara, Attingal, Trivandrum",
+                                                value: form.location,
+                                                onChange: (e)=>setForm((p)=>({
+                                                            ...p,
+                                                            location: e.target.value
+                                                        }))
+                                            }, void 0, false, {
+                                                fileName: "[project]/components/ActivityCampSection.tsx",
+                                                lineNumber: 473,
+                                                columnNumber: 15
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/components/ActivityCampSection.tsx",
+                                        lineNumber: 471,
+                                        columnNumber: 13
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        style: {
+                                            marginBottom: 14
+                                        },
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
+                                                style: {
+                                                    fontSize: 'clamp(7px,1.4vw,8px)',
+                                                    letterSpacing: '0.18em',
+                                                    textTransform: 'uppercase',
+                                                    color: '#2a3050',
+                                                    display: 'block',
+                                                    marginBottom: 6,
+                                                    fontFamily: 'JetBrains Mono,monospace'
+                                                },
+                                                children: "Any Questions? (Optional)"
+                                            }, void 0, false, {
+                                                fileName: "[project]/components/ActivityCampSection.tsx",
+                                                lineNumber: 476,
+                                                columnNumber: 15
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("textarea", {
+                                                style: {
+                                                    ...inp,
+                                                    resize: 'vertical',
+                                                    minHeight: 76
+                                                },
+                                                placeholder: "Fee details, batch timings, course doubts...",
+                                                value: form.message,
+                                                onChange: (e)=>setForm((p)=>({
+                                                            ...p,
+                                                            message: e.target.value
+                                                        }))
+                                            }, void 0, false, {
+                                                fileName: "[project]/components/ActivityCampSection.tsx",
+                                                lineNumber: 477,
+                                                columnNumber: 15
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/components/ActivityCampSection.tsx",
+                                        lineNumber: 475,
+                                        columnNumber: 13
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                        onClick: submit,
+                                        disabled: sending,
+                                        style: {
+                                            width: '100%',
+                                            background: '#FFB800',
+                                            color: '#000507',
+                                            fontFamily: 'JetBrains Mono,monospace',
+                                            fontSize: 'clamp(9px,1.8vw,11px)',
+                                            fontWeight: 700,
+                                            letterSpacing: '0.16em',
+                                            textTransform: 'uppercase',
+                                            padding: 'clamp(13px,2.5vw,17px)',
+                                            border: 'none',
+                                            cursor: 'pointer'
+                                        },
+                                        children: sending ? 'Sending...' : 'Reserve My Seat →'
+                                    }, void 0, false, {
+                                        fileName: "[project]/components/ActivityCampSection.tsx",
+                                        lineNumber: 479,
+                                        columnNumber: 13
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                        style: {
+                                            fontSize: 'clamp(6px,1.3vw,8px)',
+                                            letterSpacing: '0.1em',
+                                            textTransform: 'uppercase',
+                                            color: '#2a3050',
+                                            marginTop: 9,
+                                            textAlign: 'center'
+                                        },
+                                        children: "🔒 Your data is safe. We will never share your information."
+                                    }, void 0, false, {
+                                        fileName: "[project]/components/ActivityCampSection.tsx",
+                                        lineNumber: 483,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/ActivityCampSection.tsx",
-                                lineNumber: 534,
+                                lineNumber: 435,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(FadeIn, {
                                 delay: 0.2,
-                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    style: {
-                                        paddingTop: 40
-                                    },
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        style: {
+                                            fontFamily: 'Syne,sans-serif',
+                                            fontWeight: 800,
+                                            fontSize: 'clamp(15px,2.5vw,18px)',
+                                            color: '#EFF3FF',
+                                            marginBottom: 18
+                                        },
+                                        children: "Contact Us Directly"
+                                    }, void 0, false, {
+                                        fileName: "[project]/components/ActivityCampSection.tsx",
+                                        lineNumber: 487,
+                                        columnNumber: 13
+                                    }, this),
+                                    [
+                                        {
+                                            icon: '📞',
+                                            lbl: 'Phone / WhatsApp',
+                                            val: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                                href: "tel:+919447329972",
+                                                style: {
+                                                    color: '#FFB800',
+                                                    textDecoration: 'none'
+                                                },
+                                                children: "+91 94473 29972"
+                                            }, void 0, false, {
+                                                fileName: "[project]/components/ActivityCampSection.tsx",
+                                                lineNumber: 489,
+                                                columnNumber: 59
+                                            }, this)
+                                        },
+                                        {
+                                            icon: '✉️',
+                                            lbl: 'Email',
+                                            val: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                                href: "mailto:t.005.rutronix@gmail.com",
+                                                style: {
+                                                    color: '#FFB800',
+                                                    textDecoration: 'none',
+                                                    wordBreak: 'break-all'
+                                                },
+                                                children: "t.005.rutronix@gmail.com"
+                                            }, void 0, false, {
+                                                fileName: "[project]/components/ActivityCampSection.tsx",
+                                                lineNumber: 490,
+                                                columnNumber: 48
+                                            }, this)
+                                        },
+                                        {
+                                            icon: '📍',
+                                            lbl: 'Address',
+                                            val: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Fragment"], {
+                                                children: [
+                                                    "The Oxford Computers",
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                                                        fileName: "[project]/components/ActivityCampSection.tsx",
+                                                        lineNumber: 491,
+                                                        columnNumber: 72
+                                                    }, this),
+                                                    "Malayinkeezhu, Thiruvananthapuram",
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                                                        fileName: "[project]/components/ActivityCampSection.tsx",
+                                                        lineNumber: 491,
+                                                        columnNumber: 111
+                                                    }, this),
+                                                    "Kerala — 695571"
+                                                ]
+                                            }, void 0, true)
+                                        },
+                                        {
+                                            icon: '🕐',
+                                            lbl: 'Office Hours',
+                                            val: 'Mon – Sat: 9:00 AM – 6:00 PM'
+                                        }
+                                    ].map((item, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             style: {
-                                                marginBottom: 48
+                                                display: 'flex',
+                                                gap: 13,
+                                                alignItems: 'flex-start',
+                                                marginBottom: 13
                                             },
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                     style: {
-                                                        fontFamily: 'Syne, sans-serif',
-                                                        fontWeight: 800,
-                                                        fontSize: 18,
-                                                        color: '#EFF3FF',
-                                                        marginBottom: 20
+                                                        width: 33,
+                                                        height: 33,
+                                                        background: 'rgba(255,184,0,.08)',
+                                                        border: '1px solid rgba(255,184,0,.2)',
+                                                        display: 'flex',
+                                                        alignItems: 'center',
+                                                        justifyContent: 'center',
+                                                        fontSize: 14,
+                                                        flexShrink: 0
                                                     },
-                                                    children: "Contact Us Directly"
+                                                    children: item.icon
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/ActivityCampSection.tsx",
-                                                    lineNumber: 591,
+                                                    lineNumber: 495,
                                                     columnNumber: 17
                                                 }, this),
-                                                [
-                                                    {
-                                                        icon: '📞',
-                                                        lbl: 'Phone / WhatsApp',
-                                                        val: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                                            href: "tel:+919447329972",
-                                                            style: {
-                                                                color: '#FFB800',
-                                                                textDecoration: 'none'
-                                                            },
-                                                            children: "+91 94473 29972"
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/components/ActivityCampSection.tsx",
-                                                            lineNumber: 593,
-                                                            columnNumber: 60
-                                                        }, this)
-                                                    },
-                                                    {
-                                                        icon: '✉️',
-                                                        lbl: 'Email',
-                                                        val: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                                            href: "mailto:t.005.rutronix@gmail.com",
-                                                            style: {
-                                                                color: '#FFB800',
-                                                                textDecoration: 'none'
-                                                            },
-                                                            children: "t.005.rutronix@gmail.com"
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/components/ActivityCampSection.tsx",
-                                                            lineNumber: 594,
-                                                            columnNumber: 49
-                                                        }, this)
-                                                    },
-                                                    {
-                                                        icon: '📍',
-                                                        lbl: 'Address',
-                                                        val: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Fragment"], {
-                                                            children: [
-                                                                "The Oxford Computers",
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
-                                                                    fileName: "[project]/components/ActivityCampSection.tsx",
-                                                                    lineNumber: 595,
-                                                                    columnNumber: 73
-                                                                }, this),
-                                                                "Malayinkeezhu, Thiruvananthapuram",
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
-                                                                    fileName: "[project]/components/ActivityCampSection.tsx",
-                                                                    lineNumber: 595,
-                                                                    columnNumber: 111
-                                                                }, this),
-                                                                "Kerala — 695571"
-                                                            ]
-                                                        }, void 0, true)
-                                                    },
-                                                    {
-                                                        icon: '🕐',
-                                                        lbl: 'Office Hours',
-                                                        val: 'Mon – Sat: 9:00 AM – 6:00 PM'
-                                                    }
-                                                ].map((item, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                        style: {
-                                                            display: 'flex',
-                                                            gap: 16,
-                                                            alignItems: 'flex-start',
-                                                            marginBottom: 16
-                                                        },
-                                                        children: [
-                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                style: {
-                                                                    width: 36,
-                                                                    height: 36,
-                                                                    background: 'rgba(255,184,0,.08)',
-                                                                    border: '1px solid rgba(255,184,0,.2)',
-                                                                    display: 'flex',
-                                                                    alignItems: 'center',
-                                                                    justifyContent: 'center',
-                                                                    fontSize: 16,
-                                                                    flexShrink: 0
-                                                                },
-                                                                children: item.icon
-                                                            }, void 0, false, {
-                                                                fileName: "[project]/components/ActivityCampSection.tsx",
-                                                                lineNumber: 599,
-                                                                columnNumber: 21
-                                                            }, this),
-                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                children: [
-                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                        style: {
-                                                                            fontSize: 8,
-                                                                            letterSpacing: '0.2em',
-                                                                            textTransform: 'uppercase',
-                                                                            color: '#2a3050',
-                                                                            marginBottom: 4,
-                                                                            fontFamily: 'JetBrains Mono, monospace'
-                                                                        },
-                                                                        children: item.lbl
-                                                                    }, void 0, false, {
-                                                                        fileName: "[project]/components/ActivityCampSection.tsx",
-                                                                        lineNumber: 601,
-                                                                        columnNumber: 23
-                                                                    }, this),
-                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                        style: {
-                                                                            fontSize: 13,
-                                                                            color: '#EFF3FF'
-                                                                        },
-                                                                        children: item.val
-                                                                    }, void 0, false, {
-                                                                        fileName: "[project]/components/ActivityCampSection.tsx",
-                                                                        lineNumber: 602,
-                                                                        columnNumber: 23
-                                                                    }, this)
-                                                                ]
-                                                            }, void 0, true, {
-                                                                fileName: "[project]/components/ActivityCampSection.tsx",
-                                                                lineNumber: 600,
-                                                                columnNumber: 21
-                                                            }, this)
-                                                        ]
-                                                    }, i, true, {
-                                                        fileName: "[project]/components/ActivityCampSection.tsx",
-                                                        lineNumber: 598,
-                                                        columnNumber: 19
-                                                    }, this)),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    style: {
-                                                        marginTop: 20
-                                                    },
-                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                                        href: "https://wa.me/919447329972?text=Hi!%20I%20want%20to%20know%20about%20the%20AI%20Vacation%20Activity%20Camp%202026.",
-                                                        target: "_blank",
-                                                        rel: "noopener noreferrer",
-                                                        style: {
-                                                            background: '#FFB800',
-                                                            color: '#000507',
-                                                            fontFamily: 'JetBrains Mono, monospace',
-                                                            fontSize: 9,
-                                                            fontWeight: 700,
-                                                            letterSpacing: '0.18em',
-                                                            textTransform: 'uppercase',
-                                                            padding: '14px 28px',
-                                                            display: 'inline-flex',
-                                                            alignItems: 'center',
-                                                            gap: 8,
-                                                            textDecoration: 'none'
-                                                        },
-                                                        children: "💬 WhatsApp Us Now"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/components/ActivityCampSection.tsx",
-                                                        lineNumber: 607,
-                                                        columnNumber: 19
-                                                    }, this)
-                                                }, void 0, false, {
+                                                    children: [
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                            style: {
+                                                                fontSize: 'clamp(6px,1.3vw,8px)',
+                                                                letterSpacing: '0.16em',
+                                                                textTransform: 'uppercase',
+                                                                color: '#2a3050',
+                                                                marginBottom: 3,
+                                                                fontFamily: 'JetBrains Mono,monospace'
+                                                            },
+                                                            children: item.lbl
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/components/ActivityCampSection.tsx",
+                                                            lineNumber: 497,
+                                                            columnNumber: 19
+                                                        }, this),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                            style: {
+                                                                fontSize: 'clamp(12px,1.8vw,13px)',
+                                                                color: '#EFF3FF'
+                                                            },
+                                                            children: item.val
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/components/ActivityCampSection.tsx",
+                                                            lineNumber: 498,
+                                                            columnNumber: 19
+                                                        }, this)
+                                                    ]
+                                                }, void 0, true, {
                                                     fileName: "[project]/components/ActivityCampSection.tsx",
-                                                    lineNumber: 606,
+                                                    lineNumber: 496,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
-                                        }, void 0, true, {
+                                        }, i, true, {
                                             fileName: "[project]/components/ActivityCampSection.tsx",
-                                            lineNumber: 590,
+                                            lineNumber: 494,
                                             columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        }, this)),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        style: {
+                                            margin: '18px 0 24px'
+                                        },
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                            href: "https://wa.me/919447329972?text=Hi!%20I%20want%20to%20know%20about%20the%20AI%20Activity%20Camp%202026.",
+                                            target: "_blank",
+                                            rel: "noopener noreferrer",
                                             style: {
-                                                border: '1px solid rgba(255,255,255,.06)',
-                                                overflow: 'hidden'
+                                                background: '#FFB800',
+                                                color: '#000507',
+                                                fontFamily: 'JetBrains Mono,monospace',
+                                                fontSize: 'clamp(8px,1.6vw,9px)',
+                                                fontWeight: 700,
+                                                letterSpacing: '0.14em',
+                                                textTransform: 'uppercase',
+                                                padding: 'clamp(11px,2.5vw,13px) clamp(18px,3.5vw,24px)',
+                                                display: 'inline-flex',
+                                                alignItems: 'center',
+                                                gap: 7,
+                                                textDecoration: 'none'
                                             },
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("iframe", {
-                                                src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3941.7634729636504!2d77.00880147461548!3d8.401381991642408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b05bbf7adf9c3d3%3A0x13ead778b1e2bc93!2sMalayinkeezhu%2C%20Kerala%20695571!5e0!3m2!1sen!2sin!4v1710000000000!5m2!1sen!2sin",
-                                                style: {
-                                                    display: 'block',
-                                                    width: '100%',
-                                                    height: 220,
-                                                    filter: 'invert(.9) hue-rotate(180deg) saturate(.6)',
-                                                    border: 'none'
-                                                },
-                                                allowFullScreen: true,
-                                                loading: "lazy",
-                                                referrerPolicy: "no-referrer-when-downgrade",
-                                                title: "The Oxford Computers map"
-                                            }, void 0, false, {
-                                                fileName: "[project]/components/ActivityCampSection.tsx",
-                                                lineNumber: 614,
-                                                columnNumber: 17
-                                            }, this)
+                                            children: "💬 WhatsApp Us Now"
                                         }, void 0, false, {
                                             fileName: "[project]/components/ActivityCampSection.tsx",
-                                            lineNumber: 613,
+                                            lineNumber: 503,
                                             columnNumber: 15
                                         }, this)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "[project]/components/ActivityCampSection.tsx",
-                                    lineNumber: 589,
-                                    columnNumber: 13
-                                }, this)
-                            }, void 0, false, {
+                                    }, void 0, false, {
+                                        fileName: "[project]/components/ActivityCampSection.tsx",
+                                        lineNumber: 502,
+                                        columnNumber: 13
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        style: {
+                                            border: '1px solid rgba(255,255,255,.06)',
+                                            overflow: 'hidden'
+                                        },
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("iframe", {
+                                            src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3941.7634729636504!2d77.00880147461548!3d8.401381991642408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b05bbf7adf9c3d3%3A0x13ead778b1e2bc93!2sMalayinkeezhu%2C%20Kerala%20695571!5e0!3m2!1sen!2sin!4v1710000000000!5m2!1sen!2sin",
+                                            style: {
+                                                display: 'block',
+                                                width: '100%',
+                                                height: 190,
+                                                filter: 'invert(.9) hue-rotate(180deg) saturate(.6)',
+                                                border: 'none'
+                                            },
+                                            allowFullScreen: true,
+                                            loading: "lazy",
+                                            referrerPolicy: "no-referrer-when-downgrade",
+                                            title: "Oxford Computers map"
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/ActivityCampSection.tsx",
+                                            lineNumber: 509,
+                                            columnNumber: 15
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "[project]/components/ActivityCampSection.tsx",
+                                        lineNumber: 508,
+                                        columnNumber: 13
+                                    }, this)
+                                ]
+                            }, void 0, true, {
                                 fileName: "[project]/components/ActivityCampSection.tsx",
-                                lineNumber: 588,
+                                lineNumber: 486,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/ActivityCampSection.tsx",
-                        lineNumber: 532,
+                        lineNumber: 434,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/ActivityCampSection.tsx",
-                lineNumber: 529,
+                lineNumber: 431,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
                 style: {
-                    minHeight: '70vh',
+                    minHeight: '55vh',
                     display: 'flex',
                     alignItems: 'center',
                     justifyContent: 'center',
                     textAlign: 'center',
-                    padding: '80px 48px',
+                    padding: 'clamp(56px,9vw,80px) clamp(20px,5vw,48px)',
                     position: 'relative',
                     overflow: 'hidden',
                     background: '#080d18'
@@ -4123,12 +3924,12 @@ function ActivityCampSection() {
                         style: {
                             position: 'absolute',
                             inset: 0,
-                            background: 'radial-gradient(ellipse at 50% 60%,rgba(255,184,0,.09) 0%,transparent 60%)',
-                            animation: 'ctaGlow 4s ease-in-out infinite'
+                            background: 'radial-gradient(ellipse at 50% 60%,rgba(255,184,0,.08) 0%,transparent 60%)',
+                            animation: 'ctaP 4s ease-in-out infinite'
                         }
                     }, void 0, false, {
                         fileName: "[project]/components/ActivityCampSection.tsx",
-                        lineNumber: 625,
+                        lineNumber: 519,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(FadeIn, {
@@ -4139,29 +3940,24 @@ function ActivityCampSection() {
                             },
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                    className: "sl",
                                     style: {
-                                        fontSize: 9,
-                                        letterSpacing: '0.4em',
-                                        textTransform: 'uppercase',
-                                        color: '#00E5FF',
-                                        marginBottom: 24,
-                                        display: 'block',
-                                        fontFamily: 'JetBrains Mono, monospace'
+                                        marginBottom: 18
                                     },
                                     children: "🚀 2026 Batch · Limited Seats"
                                 }, void 0, false, {
                                     fileName: "[project]/components/ActivityCampSection.tsx",
-                                    lineNumber: 628,
+                                    lineNumber: 522,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                     style: {
-                                        fontFamily: 'Syne, sans-serif',
+                                        fontFamily: 'Syne,sans-serif',
                                         fontWeight: 800,
-                                        fontSize: 'clamp(44px,9vw,110px)',
+                                        fontSize: 'clamp(38px,9.5vw,100px)',
                                         lineHeight: .88,
                                         letterSpacing: '-0.04em',
-                                        marginBottom: 28
+                                        marginBottom: 20
                                     },
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -4172,7 +3968,7 @@ function ActivityCampSection() {
                                             children: "Your AI"
                                         }, void 0, false, {
                                             fileName: "[project]/components/ActivityCampSection.tsx",
-                                            lineNumber: 630,
+                                            lineNumber: 524,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -4183,7 +3979,7 @@ function ActivityCampSection() {
                                             children: "Future Starts"
                                         }, void 0, false, {
                                             fileName: "[project]/components/ActivityCampSection.tsx",
-                                            lineNumber: 631,
+                                            lineNumber: 525,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -4195,62 +3991,56 @@ function ActivityCampSection() {
                                             children: "This Summer"
                                         }, void 0, false, {
                                             fileName: "[project]/components/ActivityCampSection.tsx",
-                                            lineNumber: 632,
+                                            lineNumber: 526,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/ActivityCampSection.tsx",
-                                    lineNumber: 629,
+                                    lineNumber: 523,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     style: {
-                                        fontFamily: 'DM Serif Display, serif',
+                                        fontFamily: 'DM Serif Display,serif',
                                         fontStyle: 'italic',
-                                        fontSize: 20,
+                                        fontSize: 'clamp(14px,2.8vw,19px)',
                                         color: 'rgba(239,243,255,.38)',
-                                        marginBottom: 44
+                                        marginBottom: 32
                                     },
                                     children: "25 days. Real projects. Government certificate. Trivandrum, Kerala."
                                 }, void 0, false, {
                                     fileName: "[project]/components/ActivityCampSection.tsx",
-                                    lineNumber: 634,
+                                    lineNumber: 528,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "hero-btns",
                                     style: {
                                         display: 'flex',
-                                        gap: 14,
+                                        gap: 10,
                                         justifyContent: 'center',
                                         flexWrap: 'wrap'
                                     },
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                             href: "#ac-register",
-                                            onClick: (e)=>{
-                                                e.preventDefault();
-                                                document.getElementById('ac-register')?.scrollIntoView({
-                                                    behavior: 'smooth'
-                                                });
-                                            },
+                                            onClick: scrollTo('ac-register'),
                                             style: {
                                                 background: '#FFB800',
                                                 color: '#000507',
-                                                fontFamily: 'JetBrains Mono, monospace',
-                                                fontSize: 10,
+                                                fontFamily: 'JetBrains Mono,monospace',
+                                                fontSize: 'clamp(9px,1.8vw,10px)',
                                                 fontWeight: 700,
-                                                letterSpacing: '0.18em',
+                                                letterSpacing: '0.15em',
                                                 textTransform: 'uppercase',
-                                                padding: '18px 44px',
-                                                border: 'none',
-                                                cursor: 'pointer',
+                                                padding: 'clamp(13px,2.5vw,17px) clamp(24px,5vw,40px)',
                                                 textDecoration: 'none'
                                             },
                                             children: "Apply for 2026 Camp →"
                                         }, void 0, false, {
                                             fileName: "[project]/components/ActivityCampSection.tsx",
-                                            lineNumber: 636,
+                                            lineNumber: 530,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -4258,117 +4048,113 @@ function ActivityCampSection() {
                                             style: {
                                                 background: 'transparent',
                                                 color: '#EFF3FF',
-                                                fontFamily: 'JetBrains Mono, monospace',
-                                                fontSize: 10,
+                                                fontFamily: 'JetBrains Mono,monospace',
+                                                fontSize: 'clamp(9px,1.8vw,10px)',
                                                 fontWeight: 700,
-                                                letterSpacing: '0.18em',
+                                                letterSpacing: '0.15em',
                                                 textTransform: 'uppercase',
-                                                padding: '18px 44px',
+                                                padding: 'clamp(13px,2.5vw,17px) clamp(24px,5vw,40px)',
                                                 border: '1px solid #2a3050',
-                                                cursor: 'pointer',
                                                 textDecoration: 'none'
                                             },
                                             children: "📞 Call Us Now"
                                         }, void 0, false, {
                                             fileName: "[project]/components/ActivityCampSection.tsx",
-                                            lineNumber: 640,
+                                            lineNumber: 531,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/ActivityCampSection.tsx",
-                                    lineNumber: 635,
+                                    lineNumber: 529,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/ActivityCampSection.tsx",
-                            lineNumber: 627,
+                            lineNumber: 521,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/ActivityCampSection.tsx",
-                        lineNumber: 626,
+                        lineNumber: 520,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/ActivityCampSection.tsx",
-                lineNumber: 624,
+                lineNumber: 518,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("footer", {
                 style: {
                     background: '#000507',
                     borderTop: '1px solid rgba(255,255,255,.05)',
-                    padding: '56px 56px 32px'
+                    padding: 'clamp(36px,7vw,52px) clamp(20px,5vw,52px) clamp(20px,4vw,28px)'
                 },
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "gf",
                         style: {
-                            display: 'grid',
-                            gridTemplateColumns: '1.5fr 1fr 1fr 1fr',
-                            gap: 40,
-                            marginBottom: 48,
                             maxWidth: 1200,
-                            margin: '0 auto 48px'
+                            margin: '0 auto 36px'
                         },
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                         style: {
-                                            fontFamily: 'Syne, sans-serif',
+                                            fontFamily: 'Syne,sans-serif',
                                             fontWeight: 800,
-                                            fontSize: 16,
+                                            fontSize: 'clamp(12px,2.2vw,15px)',
                                             color: '#FFB800',
-                                            letterSpacing: '0.12em',
+                                            letterSpacing: '0.1em',
                                             display: 'block',
-                                            marginBottom: 14
+                                            marginBottom: 11
                                         },
                                         children: "The Oxford Computers"
                                     }, void 0, false, {
                                         fileName: "[project]/components/ActivityCampSection.tsx",
-                                        lineNumber: 653,
+                                        lineNumber: 541,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         style: {
-                                            fontFamily: 'DM Serif Display, serif',
+                                            fontFamily: 'DM Serif Display,serif',
                                             fontStyle: 'italic',
-                                            fontSize: 15,
+                                            fontSize: 'clamp(12px,1.8vw,14px)',
                                             lineHeight: 1.65,
                                             color: 'rgba(239,243,255,.35)',
-                                            maxWidth: 260
+                                            maxWidth: 240
                                         },
                                         children: "Kerala State Rutronix-approved AI & computer education institute. Transforming students into tech professionals since 1995."
                                     }, void 0, false, {
                                         fileName: "[project]/components/ActivityCampSection.tsx",
-                                        lineNumber: 654,
+                                        lineNumber: 542,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/ActivityCampSection.tsx",
-                                lineNumber: 652,
+                                lineNumber: 540,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                         style: {
-                                            fontSize: 9,
-                                            letterSpacing: '0.3em',
+                                            fontSize: 'clamp(7px,1.3vw,8px)',
+                                            letterSpacing: '0.25em',
                                             textTransform: 'uppercase',
                                             color: '#2a3050',
-                                            marginBottom: 20,
+                                            marginBottom: 14,
                                             display: 'block',
-                                            fontFamily: 'JetBrains Mono, monospace'
+                                            fontFamily: 'JetBrains Mono,monospace'
                                         },
                                         children: "AI Courses"
                                     }, void 0, false, {
                                         fileName: "[project]/components/ActivityCampSection.tsx",
-                                        lineNumber: 657,
+                                        lineNumber: 545,
                                         columnNumber: 13
                                     }, this),
                                     [
@@ -4377,49 +4163,46 @@ function ActivityCampSection() {
                                         'AI Web App Dev',
                                         'Junior YouTuber',
                                         'AI Prompt Engineer',
-                                        'AI Designer',
-                                        'Junior Python',
-                                        'Game Dev',
-                                        'Generative AI'
+                                        'AI Designer'
                                     ].map((l)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                             onClick: ()=>document.getElementById('ac-courses')?.scrollIntoView({
                                                     behavior: 'smooth'
                                                 }),
                                             style: {
                                                 display: 'block',
-                                                fontSize: 12,
+                                                fontSize: 'clamp(10px,1.8vw,12px)',
                                                 color: 'rgba(239,243,255,.35)',
-                                                marginBottom: 10,
+                                                marginBottom: 7,
                                                 cursor: 'pointer'
                                             },
                                             children: l
                                         }, l, false, {
                                             fileName: "[project]/components/ActivityCampSection.tsx",
-                                            lineNumber: 659,
+                                            lineNumber: 547,
                                             columnNumber: 15
                                         }, this))
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/ActivityCampSection.tsx",
-                                lineNumber: 656,
+                                lineNumber: 544,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                         style: {
-                                            fontSize: 9,
-                                            letterSpacing: '0.3em',
+                                            fontSize: 'clamp(7px,1.3vw,8px)',
+                                            letterSpacing: '0.25em',
                                             textTransform: 'uppercase',
                                             color: '#2a3050',
-                                            marginBottom: 20,
+                                            marginBottom: 14,
                                             display: 'block',
-                                            fontFamily: 'JetBrains Mono, monospace'
+                                            fontFamily: 'JetBrains Mono,monospace'
                                         },
                                         children: "Quick Links"
                                     }, void 0, false, {
                                         fileName: "[project]/components/ActivityCampSection.tsx",
-                                        lineNumber: 663,
+                                        lineNumber: 551,
                                         columnNumber: 13
                                     }, this),
                                     [
@@ -4438,10 +4221,6 @@ function ActivityCampSection() {
                                         [
                                             'Contact',
                                             'https://theoxfordedu.com/contact'
-                                        ],
-                                        [
-                                            'Leave a Review ★',
-                                            'https://g.page/r/CTLGp4P09cviEBM/review'
                                         ]
                                     ].map(([l, h])=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                             href: h,
@@ -4449,95 +4228,83 @@ function ActivityCampSection() {
                                             rel: "noopener noreferrer",
                                             style: {
                                                 display: 'block',
-                                                fontSize: 12,
+                                                fontSize: 'clamp(10px,1.8vw,12px)',
                                                 color: 'rgba(239,243,255,.35)',
-                                                marginBottom: 10,
+                                                marginBottom: 7,
                                                 textDecoration: 'none'
                                             },
                                             children: l
                                         }, l, false, {
                                             fileName: "[project]/components/ActivityCampSection.tsx",
-                                            lineNumber: 665,
+                                            lineNumber: 553,
                                             columnNumber: 15
                                         }, this))
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/ActivityCampSection.tsx",
-                                lineNumber: 662,
+                                lineNumber: 550,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                         style: {
-                                            fontSize: 9,
-                                            letterSpacing: '0.3em',
+                                            fontSize: 'clamp(7px,1.3vw,8px)',
+                                            letterSpacing: '0.25em',
                                             textTransform: 'uppercase',
                                             color: '#2a3050',
-                                            marginBottom: 20,
+                                            marginBottom: 14,
                                             display: 'block',
-                                            fontFamily: 'JetBrains Mono, monospace'
+                                            fontFamily: 'JetBrains Mono,monospace'
                                         },
                                         children: "Contact"
                                     }, void 0, false, {
                                         fileName: "[project]/components/ActivityCampSection.tsx",
-                                        lineNumber: 669,
+                                        lineNumber: 557,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                         href: "tel:+919447329972",
                                         style: {
                                             display: 'block',
-                                            fontSize: 12,
+                                            fontSize: 'clamp(10px,1.8vw,12px)',
                                             color: 'rgba(239,243,255,.35)',
-                                            marginBottom: 10,
+                                            marginBottom: 7,
                                             textDecoration: 'none'
                                         },
                                         children: "+91 94473 29972"
                                     }, void 0, false, {
                                         fileName: "[project]/components/ActivityCampSection.tsx",
-                                        lineNumber: 670,
+                                        lineNumber: 558,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                         href: "mailto:t.005.rutronix@gmail.com",
                                         style: {
                                             display: 'block',
-                                            fontSize: 12,
+                                            fontSize: 'clamp(10px,1.8vw,12px)',
                                             color: 'rgba(239,243,255,.35)',
-                                            marginBottom: 10,
-                                            textDecoration: 'none'
+                                            marginBottom: 7,
+                                            textDecoration: 'none',
+                                            wordBreak: 'break-all'
                                         },
                                         children: "t.005.rutronix@gmail.com"
                                     }, void 0, false, {
                                         fileName: "[project]/components/ActivityCampSection.tsx",
-                                        lineNumber: 671,
+                                        lineNumber: 559,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                         style: {
                                             display: 'block',
-                                            fontSize: 12,
+                                            fontSize: 'clamp(10px,1.8vw,12px)',
                                             color: 'rgba(239,243,255,.35)',
-                                            marginBottom: 10
+                                            marginBottom: 7
                                         },
-                                        children: "Malayinkeezhu"
+                                        children: "Malayinkeezhu, Trivandrum"
                                     }, void 0, false, {
                                         fileName: "[project]/components/ActivityCampSection.tsx",
-                                        lineNumber: 672,
-                                        columnNumber: 13
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        style: {
-                                            display: 'block',
-                                            fontSize: 12,
-                                            color: 'rgba(239,243,255,.35)',
-                                            marginBottom: 10
-                                        },
-                                        children: "Trivandrum, Kerala 695571"
-                                    }, void 0, false, {
-                                        fileName: "[project]/components/ActivityCampSection.tsx",
-                                        lineNumber: 673,
+                                        lineNumber: 560,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -4546,59 +4313,59 @@ function ActivityCampSection() {
                                         rel: "noopener noreferrer",
                                         style: {
                                             display: 'block',
-                                            fontSize: 12,
+                                            fontSize: 'clamp(10px,1.8vw,12px)',
                                             color: '#FFB800',
                                             textDecoration: 'none'
                                         },
                                         children: "💬 WhatsApp"
                                     }, void 0, false, {
                                         fileName: "[project]/components/ActivityCampSection.tsx",
-                                        lineNumber: 674,
+                                        lineNumber: 561,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/ActivityCampSection.tsx",
-                                lineNumber: 668,
+                                lineNumber: 556,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/ActivityCampSection.tsx",
-                        lineNumber: 651,
+                        lineNumber: 539,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         style: {
                             borderTop: '1px solid rgba(255,255,255,.04)',
-                            paddingTop: 24,
+                            paddingTop: 18,
                             display: 'flex',
                             justifyContent: 'space-between',
                             alignItems: 'center',
                             flexWrap: 'wrap',
-                            gap: 12,
+                            gap: 10,
                             maxWidth: 1200,
                             margin: '0 auto'
                         },
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                 style: {
-                                    fontSize: 8,
-                                    letterSpacing: '0.12em',
+                                    fontSize: 'clamp(7px,1.3vw,8px)',
+                                    letterSpacing: '0.1em',
                                     color: '#2a3050',
                                     textTransform: 'uppercase',
-                                    fontFamily: 'JetBrains Mono, monospace'
+                                    fontFamily: 'JetBrains Mono,monospace'
                                 },
-                                children: "© 2026 The Oxford Computers · Kerala State Rutronix Approved · AI Vacation Activity Camp 2026"
+                                children: "© 2026 The Oxford Computers · Kerala State Rutronix Approved"
                             }, void 0, false, {
                                 fileName: "[project]/components/ActivityCampSection.tsx",
-                                lineNumber: 678,
+                                lineNumber: 565,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 style: {
                                     display: 'flex',
-                                    gap: 16
+                                    gap: 10
                                 },
                                 children: [
                                     [
@@ -4618,43 +4385,43 @@ function ActivityCampSection() {
                                         target: "_blank",
                                         rel: "noopener noreferrer",
                                         style: {
-                                            width: 34,
-                                            height: 34,
+                                            width: 30,
+                                            height: 30,
                                             border: '1px solid rgba(255,255,255,.07)',
                                             display: 'flex',
                                             alignItems: 'center',
                                             justifyContent: 'center',
-                                            fontSize: 13,
+                                            fontSize: 12,
                                             textDecoration: 'none',
                                             color: '#EFF3FF'
                                         },
                                         children: l
                                     }, l, false, {
                                         fileName: "[project]/components/ActivityCampSection.tsx",
-                                        lineNumber: 681,
+                                        lineNumber: 568,
                                         columnNumber: 15
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/components/ActivityCampSection.tsx",
-                                lineNumber: 679,
+                                lineNumber: 566,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/ActivityCampSection.tsx",
-                        lineNumber: 677,
+                        lineNumber: 564,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/ActivityCampSection.tsx",
-                lineNumber: 650,
+                lineNumber: 538,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/ActivityCampSection.tsx",
-        lineNumber: 232,
+        lineNumber: 153,
         columnNumber: 5
     }, this);
 }
