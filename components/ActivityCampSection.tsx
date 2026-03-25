@@ -538,7 +538,7 @@ export default function ActivityCampSection() {
       <footer style={{ background: '#000507', borderTop: '1px solid rgba(255,255,255,.05)', padding: 'clamp(36px,7vw,52px) clamp(20px,5vw,52px) clamp(20px,4vw,28px)' }}>
         <div className="gf" style={{ maxWidth: 1200, margin: '0 auto 36px' }}>
           <div>
-            <span style={{ fontFamily: 'Syne,sans-serif', fontWeight: 800, fontSize: 'clamp(12px,2.2vw,15px)', color: '#FFB800', letterSpacing: '0.1em', display: 'block', marginBottom: 11 }}>The Oxford Computers</span>
+            <img src="/images/logo-main.png" alt="The Oxford Computers Logo" style={{ height: 'clamp(38px, 6vw, 48px)', marginBottom: 16, objectFit: 'contain' }} />
             <p style={{ fontFamily: 'DM Serif Display,serif', fontStyle: 'italic', fontSize: 'clamp(12px,1.8vw,14px)', lineHeight: 1.65, color: 'rgba(239,243,255,.35)', maxWidth: 240 }}>Kerala State Rutronix-approved AI & computer education institute. Transforming students into tech professionals since 1995.</p>
           </div>
           <div>
